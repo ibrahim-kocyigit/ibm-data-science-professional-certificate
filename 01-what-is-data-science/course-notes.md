@@ -31,3 +31,9 @@ Data scientists often have diverse backgrounds in fields like economics, enginee
 
 As technology evolves, so too will the role of the data scientist. Continuous learning and adaptation are essential for success in this dynamic field.
 
+## Data Science Topics
+
+### Big Data and Data Mining
+
+
+
