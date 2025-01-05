@@ -1,6 +1,6 @@
-# Course 1 - Defining Data Scientists 
+# Course 1: What is Data Science?
 
-## Module 1 - Defining Data Science and What Data Scientists Do
+## Module 1: Defining Data Science and What Data Scientists Do
 
 ### Defining Data Science
 
