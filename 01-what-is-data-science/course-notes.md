@@ -34,9 +34,10 @@ As technology evolves, so too will the role of the data scientist. Continuous le
 ## Data Science Topics
 
 ### Big Data and Data Mining
+
 In the 'Big Data and Data Mining' lesson, delve into the world of digital transformation driven by Big Data. Explore Cloud Computing's role, foundational Big Data concepts, tools like Hadoop and Spark, and gain insights into Data Mining techniques for informed decision-making.
 
-#### How Big Data is Driving Digital Transformation
+#### How Big Data is Driving Digital Transformation
 
 * Digital transformation is driven by data science, especially Big Data, leading to fundamental changes in how organizations operate and deliver value.
 * Big Data analysis provides a competitive advantage and has led to transformations across industries (e.g., Netflix, Houston Rockets, Lufthansa).
