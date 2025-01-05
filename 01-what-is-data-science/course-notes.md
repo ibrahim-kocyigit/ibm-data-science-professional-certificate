@@ -2,7 +2,7 @@
 
 # Defining Data Science and What Data Scientists Do
 
-## Defining Data SCIENCE
+## Defining Data Science
 Data science is the art of uncovering the insights and trends hidden within data to understand the world around us. While data analysis itself isn't new, recent advancements in data access and computing power have revolutionized our ability to extract knowledge and drive innovation.
 
 ## What Do Data Scientists Do?
