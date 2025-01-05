@@ -1,6 +1,8 @@
 # WHAT IS DATA SCIENCE
 
 # Defining Data Science and What Data Scientists Do
+
+## Defining Data SCIENCE
 Data science is the art of uncovering the insights and trends hidden within data to understand the world around us. While data analysis itself isn't new, recent advancements in data access and computing power have revolutionized our ability to extract knowledge and drive innovation.
 
 ## What Do Data Scientists Do?
@@ -13,14 +15,14 @@ Similar to detectives uncovering secrets or scientists exploring the natural wor
 * Storytelling: Translate the data insights into a compelling narrative.
 * Visualization: Create visual representations of the data and insights.
 
-## Essential Skills for Data Scientists
+### Essential Skills for Data Scientists
 Beyond technical expertise in statistics and programming, successful data scientists possess:
 
 * Curiosity: To explore data and ask meaningful questions.
 * Argumentation: To effectively communicate findings and persuade others.
 * Judgment: To guide the analysis process and make informed decisions.
 
-## The Evolving Role of the Data Scientist
+### The Evolving Role of the Data Scientist
 Companies seek versatile data scientists with:
 
 * Domain Expertise: Deep knowledge in a specific field.
