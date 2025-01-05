@@ -46,4 +46,20 @@ In the 'Big Data and Data Mining' lesson, delve into the world of digital transf
 * Successful transformation requires support from top-level executives (CEO, CIO, CDO) and organization-wide buy-in.
 * Digital transformation necessitates a new mindset and is crucial for success in the current and future business landscape.
 
+#### Introduction to Cloud
 
+* **Cloud computing** delivers on-demand computing resources (servers, storage, etc.) over the internet on a pay-as-you-go basis.
+* **Five essential characteristics of cloud computing** are:    
+    * **On-demand self service:** Users can access resources as needed without requiring human interaction with the provider.
+    * **Broad network access:** Resources are accessible over the network through various devices (phones, laptops, etc.).
+    * **Resource pooling:** Provider's resources are pooled to serve multiple clients, offering cost efficiency.
+    * **Rapid elasticity:** Resources can be scaled up or down quickly based on demand.
+    * **Measured service:** Pay-as-you-go model where users are charged only for the resources they consume.
+* **Three cloud deployment models** are:    
+    * Public cloud (shared resources over the internet)
+    * Private cloud (exclusive use by a single organization)
+    * Hybrid cloud (mix of public and private)
+* **Three cloud service models** are:  
+    * **IaaS (Infrastructure as a Service):** Access to infrastructure (servers, storage) without managing it.
+    * **PaaS (Platform as a Service):** Access to a platform for developing and deploying applications.
+    * **SaaS (Software as a Service):** Access to software applications over the internet on a subscription basis.
