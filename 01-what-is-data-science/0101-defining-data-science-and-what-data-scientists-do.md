@@ -6,7 +6,7 @@
 
 Data science is the art of uncovering the insights and trends hidden within data to understand the world around us. While data analysis itself isn't new, recent advancements in data access and computing power have revolutionized our ability to extract knowledge and drive innovation.
 
-#### The Data Science Process
+### What Do Data Scientists Do?
 Similar to detectives uncovering secrets or scientists exploring the natural world, data scientists use a methodical approach to glean insights from data:
 
 * Clarify the Problem: Define the question or problem you're trying to solve with data.
@@ -30,7 +30,7 @@ Companies seek versatile data scientists with:
 * Analytical Skills: Proficiency in data analysis and programming.
 * Communication Skills: Ability to clearly convey insights to both technical and non-technical audiences.
 
-Data scientists often have diverse backgrounds in fields like economics, engineering, and medicine.  As technology evolves, so too will the role of the data scientist. Continuous learning and adaptation are essential for success in this dynamic field.
+Data scientists often have diverse backgrounds in fields like economics, engineering, and medicine. 
 
-### What do Data Scientists Do?
+As technology evolves, so too will the role of the data scientist. Continuous learning and adaptation are essential for success in this dynamic field.
 
