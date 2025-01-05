@@ -31,3 +31,6 @@ Companies seek versatile data scientists with:
 * Communication Skills: Ability to clearly convey insights to both technical and non-technical audiences.
 
 Data scientists often have diverse backgrounds in fields like economics, engineering, and medicine.  As technology evolves, so too will the role of the data scientist. Continuous learning and adaptation are essential for success in this dynamic field.
+
+### What do Data Scientists Do?
+
