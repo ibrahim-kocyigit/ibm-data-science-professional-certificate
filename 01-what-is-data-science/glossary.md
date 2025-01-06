@@ -1,61 +1,124 @@
 
-**Algorithm**:  
+**Algorithm**  
 A set of step-by-step instructions to solve a problem or complete a task.
 
-**Comma-separated values (CSV) / Tab-separated values (TSv)**:  
+**Analytics**  
+The process of examining data to draw conclusions and make informed decisions. It's a fundamental aspect of data science, involving statistical analysis and data-driven insights.
+
+**Big Data**  
+Vast amounts of structured, semi-structured, and unstructured data. Characterized by its volume, velocity, variety, and value, which, when analyzed, can provide competitive advantages and drive digital transformations.
+
+**Big Data Cluster**  
+A distributed computing environment comprising thousands or tens of thousands of interconnected computers that collectively store and process large datasets.
+
+**Broad Network Access**  
+The ability to access cloud resources via standard mechanisms and platforms such as mobile devices, laptops, and workstations over networks.
+
+**Chief Data Officer (CDO)**  
+An emerging role responsible for overseeing data-related initiatives, governance, and strategies, ensuring that data plays a central role in digital transformation efforts.
+
+**Chief Information Officer (CIO)**  
+An executive who is responsible for managing an organization's information technologh and computer systems, contributing to technology-related aspects of digital transformation.
+
+**Cloud Computing**  
+The delivery of on-demand computing resources, including networks, servers, storage, applications, services, and data centers, over the internet on a pay-for-use basis.
+
+**Cloud Deployment Models**  
+Categories that indicate where cloud infrastructure resides, who manages it, and how cloud resources and services are made available to users, including public, private, and hybrid models.
+
+**Cloud Service Models**  
+Models based on the layers of a computing stack, including Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS), represent different cloud computing offerings.
+
+**Comma-Separated Values (CSV) / Tab-Separated Values (TSv)**  
 Commonly used format for storing tabular data as plain text where either the comma or the tab separates each value.
 
-**Data file types**:  
+**Commodity Hardware**  
+Standard, off-the-shelf hardware components, are used in a big data cluster, offering cost-effective solutions for storage and processing without relying on specialized hardware.
+
+**Data Algorithms**  
+Computational procedures and mathematical models used to process and analyze data made accessible in the cloud for data scientists to deploy on large datasets efficiently.
+
+**Data File Types**  
 A computer file configuration is desired to store data in a specific way.
 
-**Data format**:  
+**Data Format**  
 How data is encoded so it can be stored within a data file type.
 
-**Data visualization**:  
+**Data Replication**  
+A strategy in which data is duplicated across multiple nodes in a cluster to ensure data durability and availability, reducing the risk of data loss due to hardware failures.
+
+**Data Science**  
+An interdisciplinary field that involves extracting insights and knowledge from data using various techniques, including programming, statistics, and analytical tools.
+
+**Data Visualization**  
 A visual way, such as a graph, of representing data in a readily understandable way. Makes it easier to see trends in the data.
 
-**Delimited text file**:  
+**Deep Learning**  
+A subset of machine learning that involves artificial neural networks inspired by the human brain, capable of learning and making complex decisions from data on their own.
+
+**Delimited Text File**  
 A plain text file where a specific character separates the data values.
 
-**Extensible Markup Language (XML)**:  
+**Digital Change**  
+The integration of digital technology into business processes and operations. Leads to improvements and innovations in how organizations operate and deliver value to customers.
+
+**Digital Transformation**  
+A strategic and cultural organizational change driven by data science, especially by Big Data, to integrate digital technology across all areas of the organization, resulting in fundamental operational and value delivery changes.
+
+**Distributed Data**  
+The practice of dividing data into smaller chunks and distributing them across multiple computers within a cluster. Enables parallel processing for data analysis.
+
+**Extensible Markup Language (XML)**  
 A language designed to structure, store, and enable data exchange between various technologies.
 
-**Hadoop**:  
-An open-source framework designed to store and process large datasets across clusters of computers.
+**Hadoop**  
+A distributed storage and processing framework used for handling and analyzing large datasets, particularly well-suited for big data analytics and data science applications.
 
-**JavaScript Object Notation**:  
+**Hadoop Distributed File System (HDFS)**  
+A storage system within the Hadoop framework that partitions and distributes files across multiple nodes, faciliating parallel data access and fault tolerance.
+
+**Infrastructure as a Service (IaaS)**  
+A could service model that provides access to computing infrastructure, including servers, storage, and networking, without the need for users to manage or operate them.
+
+**Java-Based Framework**  
+Hadoop is implemented in Java, an open-source, high-level programming language, providing the foundation for building distributed storage and processing solutions.
+
+**JavaScript Object Notation**  
 A data format compatible with various programming languages for two applications to exchange structured data.
 
-**Jupyter notebooks**:  
+**Jupyter Notebooks**  
 A computational environment that allows users to create and share documents containing code, equations, visualizations, and explanatory text. See "Python notebooks".
 
-**Model**:  
+**Map Process**  
+The initial step in Hadoop's MapReduce programming model, where data is processed in parallel on individual cluster nodes, often used for data transformation tasks.
+
+**Model**  
 A representation of the relationships and patterns found in data to make predictions or analyze complex systems retaining essential elements needed for analysis.
 
-**Nearest neighbor**:  
+**Nearest Neighbor**  
 A machine learning algorithm that predicts a target variable based on its similarity to other values in the dataset.
 
-**Neural networks**:  
+**Neural Networks**  
 A computational model used in deep learning that mimics the structure and functioning of the human brain's neural pathways. It takes an input, processes it using previous learning, and produces an output.
 
-**Outliers**:  
+**Outliers**  
 When a data point or points occur significantly outside of most of the other data in a data set, potentially indicating anomalies, errors, or unique phenomena that could impact statistical analysis or modelling.
 
-**Pandas**:  
+**Pandas**  
 An open-source Python library that provides tools for working with structured data. Is often used for data manipulation and analysis.
 
-**Python notebooks**:  
+**Python Notebooks**  
 Also known as Jupyter notebook, this computational environment allows users to create and share documents containing code, equations, visualizations, and explanatory text.
 
-**Quantitative analysis**:  
+**Quantitative Analysis**  
 A systematic approach using mathematical and statistical analysis is used to interpret numerical data.
 
-**R:**  
+**R**  
 An open-source programming language used for statistical computing, data analysis, and data visualization.
 
-**Structured data**:  
+**Structured Data**  
 Data is organized and formatted into a predictable schema, usually related tables with rows and columns.
 
-**Unstructured data**:  
+**Unstructured Data**:  
 Unorganized data that lacks a predefined data model or organization makes it harder to analyze using traditional methods. This data type often includes text, images, videos, and other content that doesn't fit neatly into rows and columns like structured data.
 

@@ -3,7 +3,11 @@
 # Defining Data Science and What Data Scientists Do
 
 ## Defining Data Science
-Data science is the art of uncovering the insights and trends hidden within data to understand the world around us. While data analysis itself isn't new, recent advancements in data access and computing power have revolutionized our ability to extract knowledge and drive innovation.
+Defining data science is not easy. A lot of experts in the field still have conflicting definitions. The definition we'll go with in this course (and for now) is the following:  
+
+Data science is the art of uncovering the insights and trends hidden within data to understand the world around us. 
+
+While data analysis itself isn't new, recent advancements in data access and computing power have revolutionized our ability to extract knowledge and drive innovation.
 
 ## What Do Data Scientists Do?
 Similar to detectives uncovering secrets or scientists exploring the natural world, data scientists use a methodical approach to glean insights from data:
@@ -36,11 +40,9 @@ As technology evolves, so too will the role of the data scientist. Continuous le
 # Data Science Topics
 
 ## Big Data and Data Mining
-
 In the 'Big Data and Data Mining' lesson, delve into the world of digital transformation driven by Big Data. Explore Cloud Computing's role, foundational Big Data concepts, tools like Hadoop and Spark, and gain insights into Data Mining techniques for informed decision-making.
 
 ### How Big Data is Driving Digital Transformation
-
 * Digital transformation is driven by data science, especially Big Data, leading to fundamental changes in how organizations operate and deliver value.
 * Big Data analysis provides a competitive advantage and has led to transformations across industries (e.g., Netflix, Houston Rockets, Lufthansa).
 * Digital transformation involves in-depth analysis to improve processes, not just digitizing existing ones. 
@@ -49,7 +51,6 @@ In the 'Big Data and Data Mining' lesson, delve into the world of digital transf
 * Digital transformation necessitates a new mindset and is crucial for success in the current and future business landscape.
 
 ### Introduction to Cloud
-
 * **Cloud computing** delivers on-demand computing resources (servers, storage, etc.) over the internet on a pay-as-you-go basis.
 * **Five essential characteristics of cloud computing** are:    
     * **On-demand self service:** Users can access resources as needed without requiring human interaction with the provider.
@@ -93,5 +94,48 @@ In the 'Big Data and Data Mining' lesson, delve into the world of digital transf
 
 **Benefits of Big Data**: Provides insights for organizations to connect with customers and improve services.
 
-
 ### Data Science and Big Data
+* **Data science needs computational thinking:** Data scientists need programming skills and the ability to think computationally.
+* **Demand for data science is increasing:** Data science and analytics are hot fields with growing demand from employers and students.
+* **Big data** is data that is too large and complex to be handled by traditional database systems.
+* **Origins of big data:** Google's need to store and process massive amounts of web data led to the development of new technologies and techniques.
+* **Big data analysis:** New technical and statistical techniques are needed to handle massive datasets, including deep learning.
+
+### What is Hadoop?
+* **Hadoop** was developed by Doug Cutting at Yahoo, based on Google's big data architecture. It distributes data across a cluster of computers, processes it in parallel, and combines the results. This allows for linear scaling and handling massive dahasets.
+* **Data science components:** Combines established fields like probability, statistics, linear algebra, programming, and databases with newer techniques like machine learning.
+* **Machine learning in data science** enables pattern identification in large datasets, moving beyond traditional testing: Now we're able to find patterns first, then infer hypothesises out of these patterns, then test our hypothesises.
+* **Data science is a rapidly evolving field.** New techniques like deep learning and neural networks are constantly being added to the mix.
+
+### Big Data Processing Tools: Hadoop, HDFS, Hive, and Spark
+* **Hadoop:** Open-source framework for distributed storage and processing of large datasets.
+    * Enables handling of various data formats (structured, unstructured, semi-structured)
+    * Provides real-time, self-service access to data.
+    * Cost-effective solution for storing and processing large datasets.
+* **HDFS (Hadoop Distributed File System):** Storage system for big data.
+    * Partitions files across multiple nodes for parallel access.
+    * Replicates data for fault tolerance and high availability.
+    * Benefits: Data locality, scalability, fast recovery.
+* **Hive:** Data warehouse built on top of Hadoop for querying and analyzing data.
+    * Suitable for ETL, reporting, and data analysis.
+    * Less suitable for real-time applications and transaction processing.
+* **Spark:** General-purpose data processing engine for large datasets.
+    * Uses in-memory processing for fast computations.
+    * Supports various programming languages (Java, Python, R, etc.) and data sources.
+    * Key use case: Real-time stream processing and complex analytics.
+
+### Data Mining
+1. **Establish Clear Goals:** Define key questions, cost-benefit considerations, and desired accuracy levels.
+2. **Select relevant data:** Identify and gather appropriate data from various sources, considering cost and quality.
+3. **Preprocess data:** Clean and prepare data by handling errors, inconsistencies, and missing values.
+4. **Transform data:** Reduce the number of attributes, aggregate or transform variables as needed.
+5. **Store data:** Ensure secure and efficient storage for easy access and manipulation.
+6. **Mine data:** Apply data analysis methods, including visualization and machine learning algorithms.
+7. **Evaluate results:** Assess the effectiveness of the data mining process, test predictive capabilities, and gather stakeholder feedback.
+8. **Iterate and improve:** Refine the process based on evaluation and feedback to achieve better results.
+
+## Deep Learning and Machine Learning
+
+### Artificial Intelligence and Data Science
+
+    
