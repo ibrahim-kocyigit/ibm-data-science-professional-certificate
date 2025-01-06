@@ -1,4 +1,4 @@
-# WHAT IS DATA SCIENCE
+# WHAT IS DATA SCIENCE?
 
 # Module 1: Defining Data Science and What Data Scientists Do
 
@@ -179,4 +179,37 @@ In the 'Big Data and Data Mining' lesson, delve into the world of digital transf
     * Quantify the impact of each factor on price (e.g., an additional washroom adds more value than an extra bedroom)
     * Reveal non-linear relationships (e.g., proximity to shopping centers).
 
-# Module 3: Data Science Application Domains
+# Module 3: Applications and Careers in Data Science
+
+## Data Science Application Domains
+
+### How Should Companies Get Started in Data Science?
+* **Measurement is crucial:** Of companies can't measure something, they can't improve it. Start by capturing and recording data (e.g., costs, revenue, and customers, etc).
+* **Data is valuable:** Archive data and don't overwrite it. Even old data can be relevant for analysis and insights.
+* **Data consistency and documentation:** Ensure data is documented properly for future use and understanding.
+* **Data quality matters:** Garbage in, garbage out. The value of data science depends on the quality of data collected.
+* **Measure, then clean:** If data doesn't exist, start collecting it. If it exists, clean and analyze it.
+* **Build a data science team:** A team of data scientists with diverse skills is key to success.
+* **Foster interest and engagement:** Employees should be interested in and engaged with data science initiatives.
+
+### Old Problems, New Data Science Solutions
+* **Data science for problem solving:** Organizations use data science to find optimal solutions to existing problems.
+* **Examples of data science solutions:**  
+    * Uber optimizes driver allocation and pricing based on real-time data.
+    * Toronto Transportation Commission reduced traffic congestion by analyzing streetcar operations, customer complaints, and traffic flow data.
+    * Scientist use high-tech tools and algorithms to predict and address harmful cyanobacterial blooms in freswater lakes.
+* **Developing effective data solutions:**  
+    * Clearly identify the problem.
+    * Gather and prepare relevant data.
+    * Select appropriate tools and develop a data strategy.
+    * Utilize case studies and machine learning models.
+
+### Applications of Data Science
+* **Data science impacts businesses:** It influences operations, financial analysis, and customer interactions.
+* **Recommendation engines:** Companies like Amazon, Netflix, and Spotify use data science to personalize recommendations based on user preferences and behaviour.
+* **Personalized experiences:** Personal assistants and Google services utilize data to provide tailored recommendations and answers.
+* **Wearable devices** contribute to data generation by providing information about activity levels, sleep, heart rate, etc.
+* **Data as a competitive advantage:** In 2011, McKinsey predicted data science would drive comopetition, productivity, and innovation.
+* **Netflix Example:**  Netflix analyzes user data to predict show success before even filming. They also combine data on director, actor, and show preferences to make informed content investments.
+
+### How Data Science is Saving Lives
