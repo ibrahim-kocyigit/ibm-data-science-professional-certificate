@@ -1,6 +1,6 @@
 # WHAT IS DATA SCIENCE
 
-# Defining Data Science and What Data Scientists Do
+# Module 1: Defining Data Science and What Data Scientists Do
 
 ## Defining Data Science
 Defining data science is not easy. A lot of experts in the field still have conflicting definitions. The definition we'll go with in this course (and for now) is the following:  
@@ -37,7 +37,7 @@ Data scientists often have diverse backgrounds in fields like economics, enginee
 
 As technology evolves, so too will the role of the data scientist. Continuous learning and adaptation are essential for success in this dynamic field.
 
-# Data Science Topics
+# Module 2: Data Science Topics
 
 ## Big Data and Data Mining
 In the 'Big Data and Data Mining' lesson, delve into the world of digital transformation driven by Big Data. Explore Cloud Computing's role, foundational Big Data concepts, tools like Hadoop and Spark, and gain insights into Data Mining techniques for informed decision-making.
@@ -137,5 +137,45 @@ In the 'Big Data and Data Mining' lesson, delve into the world of digital transf
 ## Deep Learning and Machine Learning
 
 ### Artificial Intelligence and Data Science
+* **Big data:** Massive, rapidly growing, and diverse datasets that require specialized tools and techniques for analysis.
+* **Data mining:** Process of discovering patterns and insights in data, involving preprocessing, transformation, and analysis.
+* **Machine learning:** Subset of AI where algorithms learn from data to make decisions without explicit programming.
+* **Deep learning:** Specialized machine learning using neural networks to simulate human decision-making and improve accuracy over time.
+* **Neural networks:** Interconnected computing units (neurons) that learn from data to make decisions.
+* **Data Science vs. AI:**
+    * Data science extracts knowledge and insights from data using various techniques, including AI.
+    * AI focuses on enabling computers to learn and make intelligent decisions.
+    * One is not the subset of the other.
+    * Both can involve big data.
 
-    
+### Generative AI and Data Science
+* **Generative AI** creates new data (images, text, code, etc.) that resembles real data, going beyond just analyzing existing data.
+* **How it works:** Uses deep learning models like GANs and VAEs to learn patterns from data and generate new instances.
+* **Applications:** Natural language processing (chat bots), healthcare (creating sample x-rays for medical students for educational purposes), art, gaming, fashion, etc.
+* **Generative AI in Data Science:**  
+    * Creates synthetic data to augments datasets for model training and testing.
+    * Automates code generation for building analytical models, freeing up data scientists for high-level tasks.
+    * Generates insights and reports, uncovering hidden patterns and enhancing decision-making Example: IBM Cognos Analytics uses AI to generate insights from natural language queries.
+
+### Neural Networks and Deep Learning
+* **Neural networks:** Computing systems inspired by the human brain, consisting of interconnected nodes (neurons) that process and learn from the data.
+* **Deep learning:** Neural networks with multiple layers, enabling more complex learning and improved accuracy on large datasets. Deep learning has revolutionized AI by enabling machines to learn and solve complex problems from vast amount of data.
+* **Computational intensity:** Deep learning requires significan computing power, often utilizing GPUs (Graphic Processing Units).
+* **Applications:** Speech recognition, image recognition and classification, natural language processing.
+
+### Applications of Machine Learning
+* **Machine learning applications are widespread:** They are used in various fields, including recommender systems, classification, cluster analysis, and predictive analysis.
+* **Tools like R simplify machine learning:** Users can apply techniques without needing in-depth knowledge of the underlying algorithms, but they should understand the implications and trade-offs.
+* **Machine learning in fintech:**
+    * Recommendations: Suggest relevant investment ideas or financial products based on user behavior and preferences, similar to Netflix or Facebook recommendations.
+    * Fraud detection: Identify fraudulent transaction in real-time by learning from historical data and building predictive models.
+
+### Regression
+* **Regression to the mean:** Taller parents tend to have tall children, but those children are not necessarily taller than their parents. This phenomenon is known as regression to the mean.
+* **Regression models:** Statistical tools used to analyze relationships between variables and quantify their effects.They provide valuable insights by quantifying the relationships between variables, enabling better understanding and decision-making. They have broad applications in various fields, including medicine and business. 
+* **Quantifying relationships:** Regression models go beyond simply identifying correlations; they determine the magnitude and direction of relationships between variables.
+* **Example: Hedonic price models for housing:**  
+    * Identify factors that influence housing prices (e.g., size, location, features)
+    * Quantify the impact of each factor on price (e.g., an additional washroom adds more value than an extra bedroom)
+    * Reveal non-linear relationships (e.g., proximity to shopping centers).
+
