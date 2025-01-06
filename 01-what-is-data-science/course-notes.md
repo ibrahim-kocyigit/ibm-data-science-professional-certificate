@@ -129,10 +129,10 @@ In the 'Big Data and Data Mining' lesson, delve into the world of digital transf
 2. **Select relevant data:** Identify and gather appropriate data from various sources, considering cost and quality.
 3. **Preprocess data:** Clean and prepare data by handling errors, inconsistencies, and missing values.
 4. **Transform data:** Reduce the number of attributes, aggregate or transform variables as needed.
-5. **Store data:** Ensure secure and efficient storage for easy access and manipulation.
-6. **Mine data:** Apply data analysis methods, including visualization and machine learning algorithms.
-7. **Evaluate results:** Assess the effectiveness of the data mining process, test predictive capabilities, and gather stakeholder feedback.
-8. **Iterate and improve:** Refine the process based on evaluation and feedback to achieve better results.
+5. **Mine data:** Apply data analysis methods, including visualization and machine learning algorithms.
+6. **Evaluate results:** Assess the effectiveness of the data mining process, test predictive capabilities, and gather stakeholder feedback.
+
+**Iterate and improve:** Refine the process based on evaluation and feedback to achieve better results.
 
 ## Deep Learning and Machine Learning
 
@@ -157,13 +157,13 @@ In the 'Big Data and Data Mining' lesson, delve into the world of digital transf
     * Automates code generation for building analytical models, freeing up data scientists for high-level tasks.
     * Generates insights and reports, uncovering hidden patterns and enhancing decision-making Example: IBM Cognos Analytics uses AI to generate insights from natural language queries.
 
-### Neural Networks and Deep Learning
+### Neural Networks and Deep Learning
 * **Neural networks:** Computing systems inspired by the human brain, consisting of interconnected nodes (neurons) that process and learn from the data.
 * **Deep learning:** Neural networks with multiple layers, enabling more complex learning and improved accuracy on large datasets. Deep learning has revolutionized AI by enabling machines to learn and solve complex problems from vast amount of data.
 * **Computational intensity:** Deep learning requires significan computing power, often utilizing GPUs (Graphic Processing Units).
 * **Applications:** Speech recognition, image recognition and classification, natural language processing.
 
-### Applications of Machine Learning
+### Applications of Machine Learning
 * **Machine learning applications are widespread:** They are used in various fields, including recommender systems, classification, cluster analysis, and predictive analysis.
 * **Tools like R simplify machine learning:** Users can apply techniques without needing in-depth knowledge of the underlying algorithms, but they should understand the implications and trade-offs.
 * **Machine learning in fintech:**
@@ -179,3 +179,4 @@ In the 'Big Data and Data Mining' lesson, delve into the world of digital transf
     * Quantify the impact of each factor on price (e.g., an additional washroom adds more value than an extra bedroom)
     * Reveal non-linear relationships (e.g., proximity to shopping centers).
 
+# Module 3: Data Science Application Domains
