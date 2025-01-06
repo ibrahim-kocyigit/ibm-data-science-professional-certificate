@@ -204,7 +204,7 @@ In the 'Big Data and Data Mining' lesson, delve into the world of digital transf
     * Select appropriate tools and develop a data strategy.
     * Utilize case studies and machine learning models.
 
-### Applications of Data Science
+### Applications of Data Science
 * **Data science impacts businesses:** It influences operations, financial analysis, and customer interactions.
 * **Recommendation engines:** Companies like Amazon, Netflix, and Spotify use data science to personalize recommendations based on user preferences and behaviour.
 * **Personalized experiences:** Personal assistants and Google services utilize data to provide tailored recommendations and answers.
@@ -212,4 +212,4 @@ In the 'Big Data and Data Mining' lesson, delve into the world of digital transf
 * **Data as a competitive advantage:** In 2011, McKinsey predicted data science would drive comopetition, productivity, and innovation.
 * **Netflix Example:**  Netflix analyzes user data to predict show success before even filming. They also combine data on director, actor, and show preferences to make informed content investments.
 
-### How Data Science is Saving Lives
+### How Data Science is Saving Lives
