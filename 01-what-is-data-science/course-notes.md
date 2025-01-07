@@ -397,7 +397,7 @@ Data is unorganized information that is processed to become meaningful.
 * **Semi-structured data:** Has some organizational properties but lacks a rigid schema (e.g., emails, XML and other markup languages, binary executables, TCP/IP packets, zipped files, integration of data)
 * **Unstructured data:** Lacks a predefined structure and doesn't fit neatly into traditional databases (e.g., web pages, social media feeds, images in varied file formats, video and audio files, documents and PDF files, PowerPoint presentations, media logs, surveys)
 
-### Data Sources
+### Data Sources
 * **Data sources are diverse:** Ranging from internal databases to external APIs and web scraping.
 * **Common data sources:**  
     * **Relational databases:** Store structural data within organizations (e.g., SQL Server, Oracle)
@@ -406,7 +406,7 @@ Data is unorganized information that is processed to become meaningful.
     * **Web scraping:** Extracts data from websites for analysis and comparison.
     * **Data streams and feeds:** Real-time data from various sources (e.g., stock stickers, sensor data, social media feeds)
 
-### Viewpoints: Working with Varied Data Sources and Types
+### Viewpoints: Working with Varied Data Sources and Types
 * **Data variety:** Data comes in various formats and from diverse sources, requiring flexibility in handling and processing.
 * **Challenges with relational databases:** While widely used, relational databases may not be suitable for all situations, particularly write-intensive applications like IoT and social media.
 * **Rise of NoSQL and Big Data:** NoSQL databases (e.g., Cassandra, Hbase) address limitations of relational databases for specific use cases.ü
@@ -417,7 +417,7 @@ Data is unorganized information that is processed to become meaningful.
     * Newer formats like Apache Avro are gaining popularity.
 * **Data migration challenges:** Moving data between different database systems (e.g., Db2 to SQL Server) can present challenges due to data formatting, special characters, and differing import/export mechanisms.
 
-### Metadata and Metadata Management
+### Metadata and Metadata Management
 * **Metadata** is data that provides information about other data.
 * **Types of metadata:**  
     * **Technical metadata:** Defines data structures in data repositories (e.g., table names, columns, data types).
@@ -432,4 +432,4 @@ Data is unorganized information that is processed to become meaningful.
 
 ## Data Literacy
 
-### Data Collection and Organization
+### Data Collection and Organization
