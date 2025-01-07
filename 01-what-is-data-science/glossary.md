@@ -1,6 +1,6 @@
 ## Glossary for Course 1: What is Data Science
 
-**Adobe Spark**
+**Adobe Spark**  
 A suite of software tools that allow users to create and share visual content such as graphics, web pages, and videos.
 
 **Algorithm**  
