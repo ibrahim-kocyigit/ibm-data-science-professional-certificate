@@ -1,5 +1,8 @@
 ## Glossary for Course 1: What is Data Science
 
+**ACID-compliance**  
+Ensuring data accuracy and consistency through Atomicity, Consistency, Isolation, and Durability in database transactions.
+
 **Adobe Spark**  
 A suite of software tools that allow users to create and share visual content such as graphics, web pages, and videos.
 
@@ -42,6 +45,9 @@ An emerging role responsible for overseeing data-related initiatives, governance
 **Chief Information Officer (CIO)**  
 An executive who is responsible for managing an organization's information technologh and computer systems, contributing to technology-related aspects of digital transformation.
 
+**Cloud-based Integration Platform as a Service (iPaaS)**  
+Cloud-hosted integration platforms that offer integration services through virtual private clouds or hybrid cloud models, providing scalability and flexibility.
+
 **Cloud Computing**  
 The delivery of on-demand computing resources, including networks, servers, storage, applications, services, and data centers, over the internet on a pay-for-use basis.
 
@@ -57,6 +63,9 @@ The process of grouping similar data points together based on certain futures or
 **Coding Automation**  
 Using generative AI to automatically generate and test software code for constructing analytical models, freeing data scientists to focus on higher-level tasks.
 
+**Column-based Database**  
+A type of NoSQL database that organizes data in cells grouped as columns, often used for systems requiring high write request volume and storage of time-series or IoT data.
+
 **Comma-Separated Values (CSV) / Tab-Separated Values (TSv)**  
 Commonly used format for storing tabular data as plain text where either the comma or the tab separates each value.
 
@@ -69,6 +78,9 @@ Breaking problems into smaller parts and using algorithms, logic, and abstractio
 **Data Algorithms**  
 Computational procedures and mathematical models used to process and analyze data made accessible in the cloud for data scientists to deploy on large datasets efficiently.
 
+**Data at Rest**  
+Data that is stored and not actively in motion, typically residing in a database or storage system for various purposes, including backup.
+
 **Data Clusters**  
 A group of similar, related data points distinct from other clusters.
 
@@ -78,11 +90,26 @@ A computer file configuration is desired to store data in a specific way.
 **Data Format**  
 How data is encoded so it can be stored within a data file type.
 
+**Data Integration**  
+A discipline involving practices, architectural techniques, and tools that enable organizations to ingest, transform, combine, and provision data across various data types, used for purposes such as data consistency, master data management, data sharing, and data migration.
+
+**Data Lake**  
+A data repository for storing large volumes of structured, semi-structured, and unstructured data in its native format, faciliating agile data exploration and analysis.
+
+**Data Mart**  
+A subset of a data warehose designed for specific business functions or user communities, providing isolated security and performance for focused analytics.
+
 **Data Mining**  
 The process of automatically searching and analyzing data to discover patterns and insights that were previously unknown.
 
+**Data Pipeline**  
+A comprehensive data movement process that covers the entire journey of data from source systems to destination systems, which includes data integration as a key component.
+
 **Data Replication**  
 A strategy in which data is duplicated across multiple nodes in a cluster to ensure data durability and availability, reducing the risk of data loss due to hardware failures.
+
+**Data repository**  
+A general term referring to data that has been collected, organized, and isolated for business operations or data analysis. It can include databases, data warehouses, and big data stores.
 
 **Data Science**  
 An interdisciplinary field that involves extracting insights and knowledge from data using various techniques, including programming, statistics, and analytical tools.
@@ -92,6 +119,9 @@ A plan that outlines how an organization will collect, manage, and use data to a
 
 **Data Visualization**  
 A visual way, such as a graph, of representing data in a readily understandable way. Makes it easier to see trends in the data.
+
+**Data Warehouse**  
+A central repository that consolidates data from various sources through the Extract, Transform, and Load (ETL) process, making it accessible for analytics and business intelligence.
 
 **Decision Trees**  
 A type of machine learning algorithm used for decision-making by creating a tree-like structure of decisions.
@@ -117,6 +147,12 @@ A strategic and cultural organizational change driven by data science, especiall
 **Distributed Data**  
 The practice of dividing data into smaller chunks and distributing them across multiple computers within a cluster. Enables parallel processing for data analysis.
 
+**Document-based Database**  
+A type of NoSQL database that stores each record and its associated data within a single document, allowing flexible indexing, ad hoc queries, and analytics over collections of documents.
+
+**ETL Process**  
+The Extract, Transform, and Load process for data integration involves extracting data from various sources, transforming it into a usable format, and loading it into a repository.
+
 **Executive Summary**  
 Usually occurring at the beginning of a research paper, this section summarizes the important parts of the paper, including its key findings.
 
@@ -128,6 +164,9 @@ Characteristics used to describe big data: Velocity, Volume, Variety, Veracity, 
 
 **Generative AI**  
 A subset of AI that focuses on new data, such as images, music, text, or code, rather than just analyzing existing data.
+
+**Graph-based Database**  
+A type of NoSQL database that uses a graphical model to represent and store data, ideal for visualizing, analyzing, and discovering connections between interconnected data points.
 
 **Hadoop**  
 A distributed storage and processing framework used for handling and analyzing large datasets, particularly well-suited for big data analytics and data science applications.
@@ -149,6 +188,9 @@ A data format compatible with various programming languages for two applications
 
 **Jupyter Notebooks**  
 A computational environment that allows users to create and share documents containing code, equations, visualizations, and explanatory text. See "Python notebooks".
+
+**Key-Value Store**  
+A type of NoSQL database where data is stored as key-value pairs, with the key serving as a unique identifier and the value containing data, which can be simple or complex.
 
 **Map Process**  
 The initial step in Hadoop's MapReduce programming model, where data is processed in parallel on individual cluster nodes, often used for data transformation tasks.
@@ -189,6 +231,12 @@ When a data point or points occur significantly outside of most of the other dat
 **Pandas**  
 An open-source Python library that provides tools for working with structured data. Is often used for data manipulation and analysis.
 
+**Portability**  
+The capability of data integration tools to be used in various environments, including single-cloud, multi-cloud, or hybrid-cloud scenarios, providing flexibility in deployment options.
+
+**Pre-built Connectors**  
+Cataloged connectors and adapters that simplify connecting and building integration flows with diverse data sources like databases, flat files, social media, APIs, CRM, and ERP applications.
+
 **Precision vs Recall**  
 Metrics are used to evaluate the performance of classification models.
 
@@ -207,6 +255,12 @@ An open-source programming language used for statistical computing, data analysi
 **Relational Databases**  
 Databases designed to store structured data with well-defined schemas and support standard data analysis methods and tools.
 
+**Scalability**  
+The ability of a data repository to grow and expand its capacity to handle increasing data volumes and workload demands over time.
+
+**Schema**  
+The predefined structure that describes the organization and format of data within a database, indicating the types of data allowed and their relationships.
+
 **Sensors**  
 Devices such as Global Positioning Systems (GPS) and Radio Frequency Identification (RFID) tags generate structured data.
 
@@ -221,6 +275,9 @@ A software package used for statistical analysis.
 
 **Statistical Distributions**  
 A way of describing the likelihood of different outcomes based on a dataset. The "bell curve" is a common statistical distribution.
+
+**Streaming Data**  
+Data that is continuously generated and transmitted in real-time. Requires specialized handling and processing to capture and analyze.
 
 **Structured Data**  
 Data is organized and formatted into a predictable schema, usually related tables with rows and columns.
@@ -237,6 +294,8 @@ Delimited text files where the delimiter is a tab. Used as an alternative to CSV
 **TCP/IP Network**  
 A network that uses the TCP/IP protocol to communicate between connected devices on that network. The Intertet uses TCP/IP.
 
-**Unstructured Data**:  
+**Unstructured Data**  
 Unorganized data that lacks a predefined data model or organization makes it harder to analyze using traditional methods. This data type often includes text, images, videos, and other content that doesn't fit neatly into rows and columns like structured data.
 
+**Vendor Lock-in**  
+A situation where a user becomes dependent on a specific vendor's technologies and solutions, making it challengin to switch to other platforms.

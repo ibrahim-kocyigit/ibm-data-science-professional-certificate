@@ -433,3 +433,102 @@ Data is unorganized information that is processed to become meaningful.
 ## Data Literacy
 
 ### Data Collection and Organization
+* **Data repository:** A centralized location for storing and organizing data for various purposes (e.g., operations, analysis).
+* **Databases:** Collections of data designed for efficient storage, retrieval, and modification.
+* **Database Management Systems (DBMS):** Software that manages and controls access to a database (e.g., creating, querying, modifying data). 
+* **Types of databases:**  
+    * **Relational databases (RDBMS):** Organize data in tables with rows and columns, using SQL for querying (e.g., SQL Server, Oracle).
+    * **Non-relational databases (NoSQL):** Offer flexibility and scalability for handling diverse data types, often used for Big Data (e.g., Cassandra, MongoDB).
+* **Data warehouse:** A central repository that consolidates data from various sources for analytics and business intelligence.
+* **ETL process:** Extracts, transforms, and loads data into a data warehouse.
+* **Big bata stores:** Distributed systems for storing and processing massive datasets. 
+
+### Relational Database Management Systems
+* **Relational databases:** Organize data in tables with rows (records) and columns (attributes), linked by common fields.
+* **Key features:**  
+    * Relationships between tables enable efficient querying and analysis.
+    * SQL (structured query language) is used for data manipulation and retrieval.
+    * Optimized for large data volumes and complex queries.
+    * Minimizes data redundancy and ensures data integrity.
+    * Provides controlled access and security for data governance.
+* **Advantages:**  
+    * Flexibility for schema changes.
+    * Reduced data redundancy.
+    * Easy backup and disaster recovery.
+    * ACID (Atomicity, consistency, isolation, durability) compliance for data consistency and reliability.
+* **Use cases:**  
+    * Online Transaction Processing (OLTP)
+    * Data warehousing
+    * IoT solutions
+* **Limitaitions:**  
+    * Not ideal for semi-structured or unstructured data.
+    * Data migration can be challenging.
+    * Limitations on data field lengths.
+
+### NoSQL Databases
+* **NoSQL:** Stands for "not only SQL", a non-relational database approach offering flexible schemas for diverse data types.
+* **Popularity:** Driven by the rise of cloud computing, big data, and high-volume applications.
+* **Key characteristics:** 
+    * Schema-less or free-form data storage.
+    * Handles structured, semi-structured, and unstructured data.
+    * Doesn't always rely on SQL for querying.
+* **Types of NoSQL databases:**  
+    * **Key-value stores:** Store data as key-value pairs (e.g., Redis, Memcached).
+    * **Document-based:** Store data in flexible documents (e.g., MongoDB, CouchDB).
+    * **Columnd-based (Columnar):** Organize data in columns instead of rows (e.g., Cassandra, HBase).
+    * **Graph:** Represent data as nodes and relationships (e.g., Neo4j, CosmosDB).
+* **Advantages of NoSQL:** 
+    * Handles large volumes of diverse data.
+    * Scalability and performance in distributed systems.
+    * Cost-effective and flexible architecture. 
+* **Key differences from relational databases:**  
+    * Flexible schemas vs. rigid schemas.
+    * Cost-effective vs. expensive.
+    * ACID compliance is not always supported in NoSQL.
+
+### Data Marts, Data Lakes, ETL, and Data Pipelines
+* **Data warehouse:** A central repository for structured, analysis-ready data, serving as a single source of truth for reporting and analysis.
+* **Data mart:** A subset of data warehouse focused on a specific business function or user group.
+* **Data lake:** A repository for storing raw, structured, semi-structured, and unstructured data in their native format, often used for advanced analytics and machine learning.
+* **ETL (Extract, Transform, Load) process:**  
+    * **Extract:** Gathers data from various sources.
+    * **Transform:** Cleans, standardizes, and transforms data into a usable format.
+    * **Load:** Loads processed data into a target repository (data warehourse, data lake, etc.)
+* **Data pipelines:** Broader concept encompassing the entire data journey, including ETL, and can handle both batch and streaming data.
+
+### Viewpoints: Considerations for Choice of Data Repository
+* **Consider the use case:** Determine the purpose of the data repository (e.g., storing structured, semi-structured, or unstructured data).
+* **Performance requirements:** Evaluate the needs for data at rest, streaming data, or data in motion, and any performance requirements.
+* **Security and encryption:** Assess security needs and encryption requirements.
+* **Data volume:** Determine the scale of data and if a big data system is necessary.
+* **Storage and access patterns:** Consider storage requirements, update frequency, and access patterns (e.g., short intervals, long-running queries).
+* **Compatibility:** Ensure compatibility with existing systems, programming languages, and tools.
+* **Scalability:** Evaluate the ability of the repository to scale with the organization's needs.
+* **Organizational standards:** Adhere to any organizational preferences or restrictions on data repositories.
+* **Skills and cost:** Consider in-house expertise and the costs associated with different solutions.
+* **Hosting platform:** Evaluate cloud-based options and their features.
+* **Data structure and ingestion volume:** The type and structure of data, as well as the ingestion volume, influence the choice of repository.
+
+### Data Integration Platforms
+* **Data integration:** Combines data from various sources into a unified view for analysis and use.
+* **Key aspects of data integration in data science:**  
+    * Data access and extraction.
+    * Data transformation and merging.
+    * Data quality and governance.
+    * Data delivery for analytics.
+* **Relationship to ETL and data pipelines:**  
+    * Data pipelines encompass the entire data movement process.
+    * Data integration is a step within the data pipeline.
+    * ETL is a process within data integration.
+* **Capabilities of modern data integration platforms:**  
+    * Pre-built connectors for various data sources.
+    * Open-source architecture for flexibility.
+    * Support for batch and streaming processing.
+    * Big data integration.
+    * Data quality, governance, and security features.
+    * Portability for cloud and hybrid environments.
+* **Data integration tools and platforms:**  
+    * Commercial offerings from IBM, Talend, SAP, Oracle, etc.
+    * Open-source frameworks like Dell Boomi and Jitterbit.
+    * Cloud-based iPaaS (Integration Platform as a Service) solutions.
+
