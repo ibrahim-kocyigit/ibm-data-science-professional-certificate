@@ -389,3 +389,24 @@ A clearly organized and logical report should communicate the following to the r
 
 ## Understanding Data
 
+### What is Data?
+Data is unorganized information that is processed to become meaningful.
+
+#### Types of Data:
+* **Structured data:** Organized, adheres to a schema, and can be stored in relational databases (e.g., SQL databases, online transaction processing, spreadsheets, online forms, sensors GPS and RFID, network and web server logs)
+* **Semi-structured data:** Has some organizational properties but lacks a rigid schema (e.g., emails, XML and other markup languages, binary executables, TCP/IP packets, zipped files, integration of data)
+* **Unstructured data:** Lacks a predefined structure and doesn't fit neatly into traditional databases (e.g., web pages, social media feeds, images in varied file formats, video and audio files, documents and PDF files, PowerPoint presentations, media logs, surveys)
+
+### Data Sources
+* **Data sources are diverse:** Ranging from internal databases to external APIs and web scraping.
+* **Common data sources:**  
+    * **Relational databases:** Store structural data within organizations (e.g., SQL Server, Oracle)
+    * **Flat files and XML datasets:** Publicly or privately available data in various formats (e.g., CSV, spreadsheets, XML)
+    * **APIs and web services:** Provide access to data from various platforms and applications (e.g., Twitter API, stock market APIs)
+    * **Web scraping:** Extracts data from websites for analysis and comparison.
+    * **Data streams and feeds:** Real-time data from various sources (e.g., stock stickers, sensor data, social media feeds)
+
+
+
+
+
