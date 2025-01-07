@@ -1,6 +1,13 @@
+## Glossary for Course 1: What is Data Science
+
+**Adobe Spark**  
+A suite of software tools that allow users to create and share visual content such as graphics, web pages, and videos.
 
 **Algorithm**  
 A set of step-by-step instructions to solve a problem or complete a task.
+
+**Analytical Skills**  
+The ability to analyze information systematically, logically, and organized.
 
 **Analytics**  
 The process of examining data to draw conclusions and make informed decisions. It's a fundamental aspect of data science, involving statistical analysis and data-driven insights.
@@ -56,8 +63,14 @@ Commonly used format for storing tabular data as plain text where either the com
 **Commodity Hardware**  
 Standard, off-the-shelf hardware components, are used in a big data cluster, offering cost-effective solutions for storage and processing without relying on specialized hardware.
 
+**Computational Thinking**  
+Breaking problems into smaller parts and using algorithms, logic, and abstraction to develop solutions. Often used but not limited to computer science.
+
 **Data Algorithms**  
 Computational procedures and mathematical models used to process and analyze data made accessible in the cloud for data scientists to deploy on large datasets efficiently.
+
+**Data Clusters**  
+A group of similar, related data points distinct from other clusters.
 
 **Data File Types**  
 A computer file configuration is desired to store data in a specific way.
@@ -101,6 +114,9 @@ A strategic and cultural organizational change driven by data science, especiall
 **Distributed Data**  
 The practice of dividing data into smaller chunks and distributing them across multiple computers within a cluster. Enables parallel processing for data analysis.
 
+**Executive Summary**  
+Usually occurring at the beginning of a research paper, this section summarizes the important parts of the paper, including its key findings.
+
 **Extensible Markup Language (XML)**  
 A language designed to structure, store, and enable data exchange between various technologies.
 
@@ -115,6 +131,9 @@ A distributed storage and processing framework used for handling and analyzing l
 
 **Hadoop Distributed File System (HDFS)**  
 A storage system within the Hadoop framework that partitions and distributes files across multiple nodes, faciliating parallel data access and fault tolerance.
+
+**High Performing Computing (HPC) Cluster**  
+A computing technology that uses a system of networked computers designed to solve complex and computationally intensive problems in traditional environments.
 
 **Infrastructure as a Service (IaaS)**  
 A could service model that provides access to computing infrastructure, including servers, storage, and networking, without the need for users to manage or operate them.
@@ -133,6 +152,12 @@ The initial step in Hadoop's MapReduce programming model, where data is processe
 
 **Market Basket Analysis**  
 Analyzing which goods tend to be bought together. Is often used for marketing insights.
+
+**Mathematical Computing**  
+The use of computers to calculate, simulate, and model mathematical problems.
+
+**Matrices**  
+Plural for matric, matrices are a rectangular (tabular) array of numbers often used in mathematics, statistics, and computer science.
 
 **Model**  
 A representation of the relationships and patterns found in data to make predictions or analyze complex systems retaining essential elements needed for analysis.
@@ -170,11 +195,23 @@ A systematic approach using mathematical and statistical analysis is used to int
 **R**  
 An open-source programming language used for statistical computing, data analysis, and data visualization.
 
+#### Stata
+A software package used for statistical analysis.
+
+#### Statistical Distributions
+A way of describing the likelihood of different outcomes based on a dataset. The "bell curve" is a common statistical distribution.
+
 **Structured Data**  
 Data is organized and formatted into a predictable schema, usually related tables with rows and columns.
 
+#### Structured Query Language (SQL)
+A language used for managing data in a relational database.
+
 **Synthetic Data**  
 Artificially generated data with properties similar to real data, used by data scientists to augment their datasets and improve model training.
+
+#### TCP/IP Network
+A network that uses the TCP/IP protocol to communicate between connected devices on that network. The Intertet uses TCP/IP.
 
 **Unstructured Data**:  
 Unorganized data that lacks a predefined data model or organization makes it harder to analyze using traditional methods. This data type often includes text, images, videos, and other content that doesn't fit neatly into rows and columns like structured data.

@@ -293,7 +293,8 @@ Becoming a data scientist requires a combination of foundational knowledge, prac
 * **Connect math to real-world problems:** Applying math to relevant problems can make it more engaging and easier to understand.
 
 ### The Report Structure
-Before starting the analysis, think about the structure of the report. Will it be a brief report of five or fewer pages, or will it be a longer document running more than 100 pages in length? The structure of the report depends on the length of the document. 
+Before starting the analysis, think about the structure of the report. Will it be a brief report of five or fewer pages, or will it be a longer document running more than 100 pages in length? The structure of the report depends on the length of the document.
+
 * **A brief report** is more to the point and presents a summary of key findings.
 * **A detailed report** incrementally builds the argument and contains details about other relevant works, research methodology, data sources, and intermediate findings along with the main results.
 
@@ -323,7 +324,7 @@ A list of references.
 7. **Appendices (if needed)**  
 If you have any appendices, list them here.
 
-#### Checklist
+#### Checklists
 * Have you told readers, at the outset, what they might gain by reading your paper?
 * Have you made the aim of your work clear?
 * Have you explained the significance of your contribution?
@@ -331,3 +332,60 @@ If you have any appendices, list them here.
 * Have you addressed the question of practicality and usefulness?
 * Have you identified future developments that might result from your work?
 * Have you structured your paper in a clear and logical fashion?
+
+A clearly organized and logical report should communicate the following to the reader:
+
+* What they gain by reading the report
+* Clearly defined goals
+* The significance of your contribution
+* Appropriate context by giving sufficient background 
+* Why this work is practical and useful
+* Conjecture plausible future developments that might result from your work  
+
+### A Roadmap to Your Data Science Journey
+#### Personality Characteristics
+* Be curious
+* Make sound arguments
+* Use good judgment
+* Familiarize with analytics platforms
+* Be a good storyteller
+* Know your area of interests (such as healtcare or IT)
+
+#### Many Paths
+* Diverse educational and career backgrounds
+* Exposure to data challenges sparked interest
+* Data science is adaptable across professions
+
+#### Data Literacy
+* Analyze both structured and unstructured data
+* Understand file formats
+* Database and SQL skills
+* Big Data, Cloud
+
+#### Tools & Techniques
+* Programming with Python and R
+* Hadoop
+* Python libraries: NumPy, Pandas, Scikit-learn
+* Data visualization tools
+* Machine learning algorithms
+* Data preprocessing techniques
+
+#### Foundational Skills
+* Statistical knowledge
+* Mathematics, calculus, linear algebra
+* Exploratory data analysis
+* Select, train, and test models
+* Communication and presentation skills
+
+#### Range of Tasks
+* Build recommendation engines
+* Predictive modeling
+* Data analysis and problem solving
+* Identify patterns
+* Utilize external data sources
+* Communication of findings
+
+# Module 4: Data Literacy for Data Science (Optional)
+
+## Understanding Data
+
