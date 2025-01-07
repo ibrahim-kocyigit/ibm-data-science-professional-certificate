@@ -242,7 +242,7 @@ In the 'Big Data and Data Mining' lesson, delve into the world of digital transf
 
 ## Careers and Recruiting in Data Science
 
-### How Can Someone Become a Data Scientist?
+### How Can Someone Become a Data Scientist?
 Becoming a data scientist requires a combination of foundational knowledge, practical skills, continuous learning, and motivation.
 
 * **Data scientist skills:**  
@@ -323,7 +323,7 @@ A list of references.
 7. **Appendices (if needed)**  
 If you have any appendices, list them here.
 
-#### Checklist
+#### Checklist
 * Have you told readers, at the outset, what they might gain by reading your paper?
 * Have you made the aim of your work clear?
 * Have you explained the significance of your contribution?
