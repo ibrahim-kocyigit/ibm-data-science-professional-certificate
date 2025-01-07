@@ -1,6 +1,6 @@
-## Glossary for Course 1: What is Data Science
+## Glossary for Course 1: What is Data Science
 
-#### Adobe Spark
+**Adobe Spark**
 A suite of software tools that allow users to create and share visual content such as graphics, web pages, and videos.
 
 **Algorithm**  
@@ -96,7 +96,7 @@ A visual way, such as a graph, of representing data in a readily understandable 
 **Decision Trees**  
 A type of machine learning algorithm used for decision-making by creating a tree-like structure of decisions.
 
-#### Delimited text file formats
+**Delimited text file formats**  
 Text files are used to store data where each line or row has values separated by a delimiter. A delimiter is a sequence of one or more characters specifying the boundary between values. Common delimiters include comma, tab, colon, vertical bar, and space.
 
 **Deep Learning**  
@@ -177,10 +177,10 @@ A machine learning algorithm that predicts a target variable based on its simila
 **Neural Networks**  
 A computational model used in deep learning that mimics the structure and functioning of the human brain's neural pathways. It takes an input, processes it using previous learning, and produces an output.
 
-#### NoSQL Databases
+**NoSQL Databases**  
 Databases designed to store and manage unstructured data and provide analysis tools for examining this type of data.
 
-#### Online Transaction Processing (OLTP) Systems
+**Online Transaction Processing (OLTP) Systems**  
 Systems that focus on handling business transactions and storing structured data.
 
 **Outliers**  
@@ -204,37 +204,37 @@ A systematic approach using mathematical and statistical analysis is used to int
 **R**  
 An open-source programming language used for statistical computing, data analysis, and data visualization.
 
-#### Relational Databases
+**Relational Databases**  
 Databases designed to store structured data with well-defined schemas and support standard data analysis methods and tools.
 
-#### Sensors
+**Sensors**  
 Devices such as Global Positioning Systems (GPS) and Radio Frequency Identification (RFID) tags generate structured data.
 
-#### Spreadsheets
+**Spreadsheets**  
 Software applications like Excel, used for organizing and analyzing structured data.
 
-#### SQL Databases
+**SQL Databases**  
 Databases that use Structured Query Language (SQL) for defining, manipulating, and querying data in structured formats.
 
-#### Stata
+**Stata**  
 A software package used for statistical analysis.
 
-#### Statistical Distributions
+**Statistical Distributions**  
 A way of describing the likelihood of different outcomes based on a dataset. The "bell curve" is a common statistical distribution.
 
 **Structured Data**  
 Data is organized and formatted into a predictable schema, usually related tables with rows and columns.
 
-#### Structured Query Language (SQL)
+**Structured Query Language (SQL)**  
 A language used for managing data in a relational database.
 
 **Synthetic Data**  
 Artificially generated data with properties similar to real data, used by data scientists to augment their datasets and improve model training.
 
-#### Tab-separated Values (TSVs)
+**Tab-separated Values (TSVs)**  
 Delimited text files where the delimiter is a tab. Used as an alternative to CSV.
 
-#### TCP/IP Network
+**TCP/IP Network**  
 A network that uses the TCP/IP protocol to communicate between connected devices on that network. The Intertet uses TCP/IP.
 
 **Unstructured Data**:  
