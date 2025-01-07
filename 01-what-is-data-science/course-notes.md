@@ -102,7 +102,7 @@ In the 'Big Data and Data Mining' lesson, delve into the world of digital transf
 * **Big data analysis:** New technical and statistical techniques are needed to handle massive datasets, including deep learning.
 
 ### What is Hadoop?
-* **Hadoop** was developed by Doug Cutting at Yahoo, based on Google's big data architecture. It distributes data across a cluster of computers, processes it in parallel, and combines the results. This allows for linear scaling and handling massive dahasets.
+* **Hadoop** was developed by Doug Cutting at Yahoo, based on Google's big data architecture. It distributes data across a cluster of computers, processes it in parallel, and combines the results. This allows for linear scaling and handling massive datasets.
 * **Data science components:** Combines established fields like probability, statistics, linear algebra, programming, and databases with newer techniques like machine learning.
 * **Machine learning in data science** enables pattern identification in large datasets, moving beyond traditional testing: Now we're able to find patterns first, then infer hypothesises out of these patterns, then test our hypothesises.
 * **Data science is a rapidly evolving field.** New techniques like deep learning and neural networks are constantly being added to the mix.
@@ -184,7 +184,7 @@ In the 'Big Data and Data Mining' lesson, delve into the world of digital transf
 ## Data Science Application Domains
 
 ### How Should Companies Get Started in Data Science?
-* **Measurement is crucial:** Of companies can't measure something, they can't improve it. Start by capturing and recording data (e.g., costs, revenue, and customers, etc).
+* **Measurement is crucial:** If companies can't measure something, they can't improve it. Start by capturing and recording data (e.g., costs, revenue, and customers, etc).
 * **Data is valuable:** Archive data and don't overwrite it. Even old data can be relevant for analysis and insights.
 * **Data consistency and documentation:** Ensure data is documented properly for future use and understanding.
 * **Data quality matters:** Garbage in, garbage out. The value of data science depends on the quality of data collected.
@@ -209,7 +209,125 @@ In the 'Big Data and Data Mining' lesson, delve into the world of digital transf
 * **Recommendation engines:** Companies like Amazon, Netflix, and Spotify use data science to personalize recommendations based on user preferences and behaviour.
 * **Personalized experiences:** Personal assistants and Google services utilize data to provide tailored recommendations and answers.
 * **Wearable devices** contribute to data generation by providing information about activity levels, sleep, heart rate, etc.
-* **Data as a competitive advantage:** In 2011, McKinsey predicted data science would drive comopetition, productivity, and innovation.
+* **Data as a competitive advantage:** In 2011, McKinsey predicted data science would drive competition, productivity, and innovation.
 * **Netflix Example:**  Netflix analyzes user data to predict show success before even filming. They also combine data on director, actor, and show preferences to make informed content investments.
 
 ### How Data Science is Saving Lives
+* **Data science in healthcare:**  
+    * Uses predictive analytics to recommend best treatment options for patients based on various factors.
+    * Provides physicians with access to the latest disease information and treatment plans.
+    * Improves patient outcomes by ensuring consistent access to knowledge and best practices.
+    * Example: Identifying appropriate diagnostic tests based on gene markers and patient characteristics.
+* **Electronic Medical Records (EMR):**  
+    * Rich source of data for medical research.
+    * Enables sophisticated data analysis and predictive insights.
+* **Data science in disaster preparedness:**  
+    * Predicts natural disasters (earthquakes, hurricanes, floods, etc.) using large datasets.
+    * Social media data compliments scientific data to improve localized weather predictions.
+
+### The Final Deliverable
+* **Communication is key:** The purpose of analytics is to communicate findings effectively to stakeholders.
+* **Deliverables in different contexts:**  
+    * Academia: Essays and reports.
+    * Consulting/Business: Documents of varying lengths, often with visualizations.
+* **Effective deliverables:**  
+    * Use data and analytics to build a compelling narrative.
+    * Example: Deloitte's "United States Economic Forecast"
+        * Presents a clear thesis statement
+        * Uses visualization to illustrate trends
+        * Connects economic data to broader social context
+        * Establishes Deloitte's expertise
+* **Narrative is crucial:** Simply presenting data without a narrative fails to communicate the intended message effectively.
+* **Plan the deliverable:** Conceptualize the key message and scope before starting the analysis to ensure a cohesive and impactful final product.
+
+## Careers and Recruiting in Data Science
+
+### How Can Someone Become a Data Scientist?
+Becoming a data scientist requires a combination of foundational knowledge, practical skills, continuous learning, and motivation.
+
+* **Data scientist skills:**  
+    * Strong foundation in programming, math (algebra, calculus), probability, statistics, and databases.
+    * Understanding of relational databases and big data concepts.
+    * Advanced data scientists often have PhDs and expertise in computer science theory and statistics.
+* **Self-learning and hands-on experience:**  
+    * Online learning platforms and tools like Jupyter notebooks provide opportunities for practival application.
+    * Building and tinkering with projects enhances understanding.
+    * Motivation is crucial for continous learning.
+* **Data science in organizations:**  
+    * Data science teams should ideally be aligned with research and development rather than IT.
+    * High demand for PhD-level data scientists in research-driven industries (pharmaceuticals, finance, technology).
+
+### Recruiting for Data Science
+* **Hiring data scientists:**  
+    * Avoid searching for "unicorns" with every skill imaginable.
+    * Priotize passion for the business domain and cultural fit.
+    * Technical skills can be taught, but curiosity and soft skills are essential.
+* **Key traits to look for:**  
+    * Curiosity about the world and the business.
+    * Sense of humor and lighthearted approach.
+    * Strong communication and storytelling skills.
+    * Technical skill are important but can be developed.
+* **Additional considerations:**  
+    * Technical skills should align with the type of data and platform used.
+    * Data scientists need to build relationships and work across departments.
+    * Problem-solving and analytical thinking are crucial.
+    * Consider the specific role and needs of the data science team.
+
+### Careers in Data Science
+* **Data science is a rapidly growing field:** Driven by the Internet of Things and advances in computing, leading to increased demand for data scientists.
+* **High demand and promising career:**  Data science consistently ranks as a top career choice with significant growth predicted in the data science platform market.
+* **Data science skills:**  
+    * Aptitude for working with data.
+    * Coding skills.
+    * Math and statistical knowledge.
+    * Strong communication and storytelling abilities.
+* **Continious learning:** Data scientists need to continiously acquire new skills and stay updated on the latest tools and techniques.
+* **Diversity in data science:** Initiatives like "Women in Data Science" promote inclusivity and support for underrepresented groups.
+* **Tailor your skills:** Focus on developing skills relevant to your desired data science role and utilize online resources for training.
+
+### Importance of Mathematics and Statistics for Data Science
+* **Data science requires a foundation in math and statistics:** Programming, math, probability, and statistics are essential skills.
+* **Hands-on experience is crucial:** Building and experimenting with data and systems helps solidify understanding and identify learning needs.
+* **Cultivate curiosity:** Encourage exploration, problem-solving, and a "detective" mindset.
+* **Data science is a valuable career path:** It's a highly sought-after profession with growing demand in various industries.
+* **Connect math to real-world problems:** Applying math to relevant problems can make it more engaging and easier to understand.
+
+### The Report Structure
+Before starting the analysis, think about the structure of the report. Will it be a brief report of five or fewer pages, or will it be a longer document running more than 100 pages in length? The structure of the report depends on the length of the document. 
+* **A brief report** is more to the point and presents a summary of key findings.
+* **A detailed report** incrementally builds the argument and contains details about other relevant works, research methodology, data sources, and intermediate findings along with the main results.
+
+1. **Cover Page**  
+At a minimum, the cover page should include the title of the report, names of authors, their affiliations, and contacts, the name of the institutional publisher (if any), and the date of publication.
+
+2. **Table of Contents**  
+The ToC with main headings and lists of tables and figures offers a glimpse of what lies ahead in the document. Never shy away from including a ToC, especially if your document, excluding cover page, table of contents, and references, is five or more pages in length.
+
+3. **Executive Summary**  
+Even for a short document, I recommend an "abstract" or an "executive summary". Nothing is more powerful than explaining the crux of your arguments in three paragraphs or less. Of course, for larger documents running a few hundred pages, the executive summary could be longer.
+
+4. **Detailed Contents**  
+* **Introductory:** section is always helpful in setting up the problem for the reader who might be new to the topic and who might need to be gently introduced to the subject matter before being immersed in intricate details. 
+* **Review:** A review of available relevant research on the subject matter. The length of the literature review section depends upon how contested the subject matter is. In instances where the vast majority of researchers have concluded in one direction, the literature review could be brief with citations for only the most influential authors on the subject. On the other hand, if the arguments are more nuanced with caveats aplenty, then you must cite the relevant research to offer adequate context before you embark on your analysis. You might use the literature review to highlight gaps in the existing knowledge, which your analysis will try to fill. This is where you formally introduce your research questions and hypothesis.
+* **Methodology:** Introduce the research methods and data sources you used for the analysis. If you have collected new data, explain the data collection exercise in some detail. You will refer to the literature review to bolster your choice for variables, data, and methods and how they will help you answer your research questions.
+* **Results:** Where you present your empirical findings. Starting with descriptive statistics and illustrative graphics, you will move toward formally testing your hypothesis. Note that many reports in the business sector present results in a more palatable fashion by holding back the statistical details and relying on illustrative graphics to summarize the results.
+* **Discussion:** Craft your main arguments by building on the results you have presented earlier. This section is where you rely on the power of narrative to enable numbers to communicate your thesis to your readers. You refer the reader to the research question and the knowledge gaps you identified earlier. You highlight how your findings provide the ultimate missing piece to the puzzle. Of course, not all analytics return a smoking gun. At times, more frequently than I would like to acknowledge, the results provide only a partial answer to the question and that, too, with a long list of caveats.
+* **Conclusion:** Generalize your specific findings and take on a rather marketing approach to promote your findings so that the reader does not remain stuck in the caveats that you have voluntarily outlined earlier. You might also identify future possible developments in research and applications that could result from your research.
+
+5. **Acknowledgments**  
+Acknowledging the support of those who have enabled your work is always good.
+
+6. **References**  
+A list of references.
+
+7. **Appendices (if needed)**  
+If you have any appendices, list them here.
+
+#### Checklist
+* Have you told readers, at the outset, what they might gain by reading your paper?
+* Have you made the aim of your work clear?
+* Have you explained the significance of your contribution?
+* Have you set your work in the appropriate context by giving sufficient background (including a complete set of relevant references) to your work?
+* Have you addressed the question of practicality and usefulness?
+* Have you identified future developments that might result from your work?
+* Have you structured your paper in a clear and logical fashion?
