@@ -1,10 +1,10 @@
 # WHAT IS DATA SCIENCE?
 
-# Table of contents
+## Table of contents
 1. [Module 1: Defining Data Science and What Data Scientists Do](#module-1)
-1. [Module 2: Data Science Topics](#module-2)
-1. [Module 3: Applications and Careers in Data Science](#module-3)
-1. [Module 4: Data Literacy for Data Science ](#module-4)
+2. [Module 2: Data Science Topics](#module-2)
+3. [Module 3: Applications and Careers in Data Science](#module-3)
+4. [Module 4: Data Literacy for Data Science ](#module-4)
 
 # Module 1: Defining Data Science and What Data Scientists Do <a name="module-1"></a>
 

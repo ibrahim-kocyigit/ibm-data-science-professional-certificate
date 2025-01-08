@@ -1,6 +1,12 @@
 # TOOLS FOR DATA SCIENCE
 
-# Module 1: Overview of Data Science Tools
+## Table of Contents
+1. [Module 1: Overview of Data Science Tools](#module-1)
+2. [Module 2: Languages of Data Science](#module-2)
+3. [Module 3: Packages, APIs, Data Sets, and Models](#module-3)
+
+
+# Module 1: Overview of Data Science Tools <a name="module-1"></a>
 
 ## Data Science Tools
 
@@ -72,7 +78,7 @@ By understanding the strengths and weaknesses of the open-source tools, data sci
 * Model building can be done using a service such as Watson Machine Learning.
 * Amazon SageMaker Model Monitor is an example of a cloud tool to monitor deployed machine learning and deep learning models continuously.
 
-# Module 2: Languages of Data Science
+# Module 2: Languages of Data Science <a name="module-2"></a>
 
 ## Languages of Data Science
 
@@ -170,4 +176,4 @@ By understanding the applications and strengths of these languages, data scienti
 * Can call libraires from other languages (C, Python, R, etc.)
 * Used in data science for tools like JuliaDB (for working with large datasets.)
 
-# Module 3: Packages, APIs, Data Sets, and Models
+# Module 3: Packages, APIs, Data Sets, and Models <a name="module-3"></a>
