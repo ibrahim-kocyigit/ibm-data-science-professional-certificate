@@ -6,7 +6,7 @@
 
 ### Categories of Data Science Tools
 
-#### Data Science Tasks:
+#### Data Science Tasks:
 * **Data Management:** This is like being a librarian for data. You need to know how to collect data from various data sources (databases, APIs, websites, etc.), store it safely and efficiently (in databases or other systems), and make sure you can access it quickly when needed. Think of it as organizing and maintaining a massive library of information.
 * **Data Integration and Transformation:** This is where you take data from different sources and make it all work together. Imagine having puzzle pieces from different puzzles - you need to trim them, reshape them, and make sure they fit together to form a complete picture. This involves cleaning the data, converting it into a consistent format, and combining it in meaningful ways.
 * **Data Visualization:** This is where you create charts, graphs, and other visuals to help people understand the data. Think of it as translating raw numbers into pictures that tell a story. A good visualization can reveal patterns and insights that would be difficult to see in a table of numbers.
@@ -56,7 +56,7 @@ By understanding the strengths and weaknesses of the open-source tools, data sci
     * **KNIME:** A visual platform for data integration, transformation, visualization, and model building with drag-and-drop functionality and extensibility through R and Python.
     * **Orange:** User-friendly visual tool with a focus on ease of use, offering data mining and machine learning capabilities.
 
-### Commercial Tools for Data Science
+### Commercial Tools for Data Science
 * Commercial tools support the most common tasks in data science.
 * **Data management tools** are Oracle Database, Microsoft SQL Server, and IBM Db2.
 * **Data integration tools** are mainly provided by Informatica PowerCenter, IBM InfoSphere DataStage. These are followed by products from SAP, Oracle, SAS, Talend, Microsoft, and Watson Studio Desktop,.
@@ -64,7 +64,7 @@ By understanding the strengths and weaknesses of the open-source tools, data sci
 * **Dataset management tools** are provided by Informatica and IBM.
 * For **model monitoring** and **code asset management** open-source tools are used.
 
-### Cloud Based Tools for Data Science
+### Cloud Based Tools for Data Science
 * Watson Studio, together with Watson Open Scale is a fully integrated tool covering the data science life cycle.
 * In data management, with some exceptions, there exist a software-as-a-service (SaaS) version of existing open source and commercial tools
 * Two commercial data integration tools widely used are Informatica Cloud Data Integration and IBM's Data Refinery
@@ -82,7 +82,8 @@ By understanding the strengths and weaknesses of the open-source tools, data sci
 * The popular languages in data science are Python, R, SQL, Scala, Java, C++
 * JavaScript, PHP, Go, Ruby, and Visual Basic all have their own unique use cases as well.
 
-### Introduction to Python
+### Introduction to Python
+
 #### Python's popularity:
 Python is the most widely used language in data science, with the majority of data scientist using it regularly and a large percentage of data science job descriptions requiring it.
 
@@ -97,12 +98,12 @@ Python is the most widely used language in data science, with the majority of da
 * **AI and machine learning libraries:** TensorFlow, PyTorch, Keras, and scikit-learn provide powerful frameworks for building and training machine learning models.
 * **Natural Language Processing (NLP):** NLTK (Natural Language Learning Toolkit) enables text analysis and natural language understanding.
 
-#### Diversity and inclusion:
+#### Diversity and inclusion:
 * The Python community is known for its strong emphasis on diversity and inclusion.
 * The Python Software Foundation has a code of conduct to ensure safe and inclusive online and in-person communities.
 * Groups like PyLadies promote the participation of women in the Python open-source community.
 
-### Introduction to R Language
+### Introduction to R Language
 
 #### Open source vs. Free software
 * **Similarities:** Both are free to use, often use the same licences (e.g., GNU), and support collaboration.
@@ -116,15 +117,15 @@ Python is the most widely used language in data science, with the majority of da
 * **Integration with other languages:** Can be integrated with C++, Java, Python, and others.
 * Strong object-oriented programming:** Provides advanced object-oriented programming capabilities compared to other statistical computing languages.
 
-### Introduction to SQL
+### Introduction to SQL
 **SQL (Structured Query Language)** is a non-procedural language specifically designed for managing and querying data in relational databases. It's not a full-fledged data science language like Python or R, but it's an essential tool for data scientists.
 
-#### Key characteristics of SQL:
+#### Key characteristics of SQL:
 * Focuses on data management and retrieval.
 * Used for working with structured data in relational databases (organized in tables with rows and columns).
 * Can also be used with some NoSQL and big data repositories through SQL-like interface.
 
-#### SQL elements:
+#### SQL elements:
 * **Clauses:** Part of a query that specify conditions or actions (e.g., `WHERE`, `ORDER_BY`).
 * **Expressions:** Combinations of values, operators, and functions that result in a single value.
 * **Predicates:** Expressions that evaluate to true or false, used in conditions.
@@ -139,7 +140,7 @@ Python is the most widely used language in data science, with the majority of da
 
 **Popular SQL databases** are MySQL, IBM DB2, PostgreSQL, SQLite, Oracle, Microsoft SQL Server.
 
-### Other Languages for Data Science
+### Other Languages for Data Science
 By understanding the applications and strengths of these languages, data scientists can expand their toolkit and choose the most suitable language for specific tasks and projects, ranging from building high-performance applications to developing web-based data science tools.
 
 #### Java:
@@ -154,11 +155,11 @@ By understanding the applications and strengths of these languages, data scienti
 * Known for its sxalability and expressiveness.
 * Widely used in data science for building distributed systems like Apache Spark (a fast and general purpose cluster computing system).
 
-#### C++
+#### C++
 * A high-performance language often used for developing core components of data science applications where speed and control are crucial.
 * Used to build tools like TensorFlow (deep learning), MongoDB (NoSQL database), and Caffe (deep learning framework).
 
-#### JavaScript
+#### JavaScript
 * Primarily know for web development, but also used in data science through libraries like TensorFlow.js (brings machine learning to the browser and Node.js).
 * Other JavaScript based data science tools include brain.js and machinelearn.js
 * R-js is a project that aims to bring O's functionalities to the JavaScript ecosystem.
