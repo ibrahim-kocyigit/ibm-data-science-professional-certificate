@@ -1,6 +1,12 @@
 # WHAT IS DATA SCIENCE?
 
-# Module 1: Defining Data Science and What Data Scientists Do
+# Table of contents
+1. [Module 1: Defining Data Science and What Data Scientists Do](#module-1)
+1. [Module 2: Data Science Topics](#module-2)
+1. [Module 3: Applications and Careers in Data Science](#module-3)
+1. [Module 4: Data Literacy for Data Science ](#module-4)
+
+# Module 1: Defining Data Science and What Data Scientists Do <a name="module-1"></a>
 
 ## Defining Data Science
 Defining data science is not easy. A lot of experts in the field still have conflicting definitions. The definition we'll go with in this course (and for now) is the following:  
@@ -37,7 +43,7 @@ Data scientists often have diverse backgrounds in fields like economics, enginee
 
 As technology evolves, so too will the role of the data scientist. Continuous learning and adaptation are essential for success in this dynamic field.
 
-# Module 2: Data Science Topics
+# Module 2: Data Science Topics <a name="module-2"></a>
 
 ## Big Data and Data Mining
 In the 'Big Data and Data Mining' lesson, delve into the world of digital transformation driven by Big Data. Explore Cloud Computing's role, foundational Big Data concepts, tools like Hadoop and Spark, and gain insights into Data Mining techniques for informed decision-making.
@@ -179,7 +185,7 @@ In the 'Big Data and Data Mining' lesson, delve into the world of digital transf
     * Quantify the impact of each factor on price (e.g., an additional washroom adds more value than an extra bedroom)
     * Reveal non-linear relationships (e.g., proximity to shopping centers).
 
-# Module 3: Applications and Careers in Data Science
+# Module 3: Applications and Careers in Data Science <a name="module-3"></a>
 
 ## Data Science Application Domains
 
@@ -385,7 +391,7 @@ A clearly organized and logical report should communicate the following to the r
 * Utilize external data sources
 * Communication of findings
 
-# Module 4: Data Literacy for Data Science (Optional)
+# Module 4: Data Literacy for Data Science (Optional) <a name="module-4"></a>
 
 ## Understanding Data
 
