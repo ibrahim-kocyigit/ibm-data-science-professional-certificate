@@ -10,7 +10,7 @@ Open source tools for data science are broadly classified as:
 * **Code Development and Execution Tools:** Provides environments for developing, testing, and deploying code, offering computational resources to execute it.
 * **Code Asset Management Tools:** Enables the storage and management of code, track changes, and support collaborative development.
 
-## Data Management Tools
+## Data Management Tools
 Facilitates the storage, organization, and retrieval of data. Includes Relational Databases, NoSQL databases, and Big Data platforms.
 
 ### MySQL
@@ -29,14 +29,14 @@ Facilitates the storage, organization, and retrieval of data. Includes Relationa
     * Full-text search
     * Spatial data
 
-### Apache CouchDB
+### Apache CouchDB
 * Document-oriented **NoSQL** database.
 * Uses JSON to share data.
 * Highly scalable.
 * Fault-tolerant
 * Easy to use
 
-### MongoDB
+### MongoDB
 * Document oriented **NoSQL** database.
 * Stores data in a flexible JSON.
 * Provides:
@@ -60,7 +60,7 @@ Facilitates the storage, organization, and retrieval of data. Includes Relationa
 * Data is replicated across different DataNodes ensuring high availability and fault tolerance
 * Scalable and efficient
 
-### Ceph
+### Ceph
 * Free, open source software-defined storage platfor suitable for hybrid cloud environments.
 * Designed for modern data centers.
 * Provides highly scalable, unified storage system that can be used for object storage (like AWS S3), block storage (like virtual disks for VMs), and file storage (like NFS) under one unified system.
@@ -133,7 +133,7 @@ Streamlines data pipelines and automate data processing workflows. Task of data 
 * Provides a range of built-in visualizations and data connectors
 * Support for customization and extensibility through third-party libraries.
 
-### Hue
+### Hue
 * Open source web interface for analyzing and visualizing large datasets in Apache Hadoop.
 * Offers a user-friendy experience for exploring data and creating visualizations.
 * No need for programming skills; can create visualizations from SQL queries.

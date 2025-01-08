@@ -471,7 +471,7 @@ Data is unorganized information that is processed to become meaningful.
     * Data migration can be challenging.
     * Limitations on data field lengths.
 
-### NoSQL Databases
+### NoSQL Databases
 * **NoSQL:** Stands for "not only SQL", a non-relational database approach offering flexible schemas for diverse data types.
 * **Popularity:** Driven by the rise of cloud computing, big data, and high-volume applications.
 * **Key characteristics:** 
@@ -502,7 +502,7 @@ Data is unorganized information that is processed to become meaningful.
     * **Load:** Loads processed data into a target repository (data warehourse, data lake, etc.)
 * **Data pipelines:** Broader concept encompassing the entire data journey, including ETL, and can handle both batch and streaming data.
 
-### Viewpoints: Considerations for Choice of Data Repository
+### Viewpoints: Considerations for Choice of Data Repository
 * **Consider the use case:** Determine the purpose of the data repository (e.g., storing structured, semi-structured, or unstructured data).
 * **Performance requirements:** Evaluate the needs for data at rest, streaming data, or data in motion, and any performance requirements.
 * **Security and encryption:** Assess security needs and encryption requirements.
