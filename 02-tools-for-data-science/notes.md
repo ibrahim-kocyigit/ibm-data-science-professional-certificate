@@ -5,7 +5,6 @@
 2. [Module 2: Languages of Data Science](#module-2)
 3. [Module 3: Packages, APIs, Data Sets, and Models](#module-3)
 <br>
-<br>
 
 # Module 1: Overview of Data Science Tools <a name="module-1"></a>
 
