@@ -4,6 +4,8 @@
 1. [Module 1: Overview of Data Science Tools](#module-1)
 2. [Module 2: Languages of Data Science](#module-2)
 3. [Module 3: Packages, APIs, Data Sets, and Models](#module-3)
+4. [Module 4: Jupyter Notebooks and JupyterLab](#module-4)
+
 
 # Module 1: Overview of Data Science Tools <a name="module-1"></a>
 
@@ -177,3 +179,299 @@ By understanding the applications and strengths of these languages, data scienti
 
 # Module 3: Packages, APIs, Data Sets, and Models <a name="module-3"></a>
 
+## Libraries, APIs, Datasets and Models
+
+### Libraries for Data Science
+By understanding the capabilities of these libraries, data scientists can leverage pre-built functions and tools to efficiently perform various tasks, from data cleaning and manipulation to building and deploying complex machine learning models.
+
+#### Scientific Computing Libraries in Python
+* **Pandas:** Provides data structures (like DataFrames) and tools for data manipulation, cleaning, and analysis. It's essential for working with structured data in Python.
+* **NumPy:** The foundation for numerical computing in Python. It provides tools for working with arrays and matrices, enabling efficient mathemathical operations.
+
+#### Visualization Libraries in Python
+* **Matplotlib:** A versatile library for creating various types of plots and charts. It's highly customizable and widely used for data visualization in Python.
+* **Seaborn:** Built on top of Matplotlib, Seaborn provides a higher-level interface for creating statistically informative and visually appealing plots like heatmaps, time series, and violin pilots.
+
+#### Machine Learning and Deep Learning Libraries in Python
+* **Scikit-learn:** A comprehensive library for various machine learning tasks, including classification, regression, clustering, dimensionality reduction, and model selection. It's user-friendly and widely used for building and evaluating models.
+* **Keras:** A high-level API for building and training deep learning models. It's know for its simplicity and ease of use, making it suitable for beginners.
+* **TensorFlow:** A powerful and versatile library for numerical computation, particularly well-suited for large-scale machine learning and deep learning. It's often used for production and deployment of models.
+* **PyTorch:** Another popular deep learning framework known for its dynamic computation graph and flexibility. It's favored by researchers for its ease of use and intuitive interface. 
+
+#### Other Languages and Libraries
+* **Apache Spark:** A distributed computing framework that provides libraries for data manipulation, machine learning, and graph processing. It supports Python, R, Scala, and SQL.
+* **Scala libraries:** Vegas (for data visualization) and Big DL (for deep learning) are example of Scala libraries in data science.
+* **R Libraries:** ggpolot2 (for data visualization) is a popular R library. R also has interfaces to Keras and TensorFlow for deep learning.
+
+### Application Programming Interfaces (APIs)
+An **Application Programming Interface (API)** is a way for different software applications to communicate with each other. Think of it as a waiter in the restaurant. You tell the waiter what you want (the request), they communicate that to the kitchen (the back-end), and then bring you your food (the response). You don't need to know how the kitchen works, just how to interact with the waiter.
+
+#### API libraries
+* **Pandas API:** Allows you to work with data structures and perform data manipulation tasks in Python without needing to know the underlying implementation details.
+* **TensorFlow API:** Provides interfaces for various programming languages (Python, JavaScript, C++, R, etc.) to interact with the TensorFlow library for machine learning.
+
+#### REST APIs (Representational State Transfer)
+A type of API that uses the internet to communicate between a client (your program) and a web service (the resource).
+
+**Key concepts:** 
+* **Client:** The program making the request.
+* **Resource:** The web service providing data or functionality.
+* **Endpoint:** The specific URL used to access the resource.
+* **Request:** The input sent to the resource.
+* **Response:** The output received from the resource.
+
+**HTTP Methods:** Rest APIs use HTTP methods like `GET`, `POST`, `PUT`, and `DELETE` to perform actions on the resource.
+
+**JSON (JavaScript Object Notation):** Often used to structure data in requests and responses.
+
+**Example of REST APIs:**
+* **Watson Speech-to-Text API:** Converts spoken audio into written text.
+* **Watson Language Translator API:** Translates text from one language to another.
+
+### Datasets: Powering Data Science
+A **dataset** is a structured collection of data, which can be tabular (like a spreadsheet), hierarchical, network-based or even raw files (images, audio, video).
+
+By understanding the concepts of datasets, data ownership, and licensing, data scientists can effectively utilize open data for research, analysis, and model building while adhering to ethical and legal considerations.
+
+#### Data ownership:
+* **Private datasets:** Contain sensitive or proprietary information and are not publicly shared. 
+* **Open data:** Publicly available datasets from various sources (governments, organization, companies) that can be freely used and analyzed. Open data is crucial for the growth and development of data science. Open datasets may not always be suitable for enterprise use due to potential business implications.
+
+#### Sources of open data
+* Governmental and intergovernmental organizations (UN, EU, etc.)
+* Data portals (e.g., Open Knowledge Foundations's datacatalogs.org)
+* Online communities (e.g., Kagge)
+* Search engines (e.g., Google Dataset Search)
+
+#### Community Data Licence Aggrement (CDLA)
+* Created by the Linux Foundation to address licencing issues specific to datasets. The CDLA makes it easier to share and use open data while respecting creator's rights.
+* **CDLA-Sharing:** Allows use and modification of data, but requires sharing modified versions under the same license.
+* **CDLA-Permissive:** Allow use and modification without requiring sharing of changes.
+* **Important note:** Neither licence restricts the sharing or licensing the results derived from the data (e.g., machine learning models).
+
+### Additional Sources of Datasets
+#### Government Data:
+* https://www.data.gov/
+* https://www.census.gov/data.html
+* https://data.gov.uk/
+* https://www.opendatanetwork.com/
+* https://data.un.org/
+
+#### Financial Data Sources:
+* https://data.worldbank.org/
+* https://www.globalfinancialdata.com/
+* https://comtrade.un.org/
+* https://www.nber.org/
+* https://fred.stlouisfed.org/
+
+#### Crime Data:
+* https://www.fbi.gov/services/cjis/ucr
+* https://www.icpsr.umich.edu/icpsrweb/content/NACJD/index.html
+* https://www.drugabuse.gov/related-topics/trends-statistics
+* https://www.unodc.org/unodc/en/data-and-analysis/
+
+#### Health Data:
+* https://www.who.int/gho/database/en/
+* https://www.fda.gov/Food/default.htm
+* https://seer.cancer.gov/faststats/selections.php?series=cancer
+* https://www.opensciencedatacloud.org/
+* https://pds.nasa.gov/
+* https://earthdata.nasa.gov/
+* https://www.sgim.org/communities/research/dataset-compendium/public-datasets-topic-grid
+
+#### Academic and Business Data:
+* https://scholar.google.com/
+* https://nces.ed.gov/
+* https://www.glassdoor.com/research/
+* https://www.yelp.com/dataset
+
+#### Other General Data:
+* https://datacatalogs.org/
+* https://datasetsearch.research.google.com/
+* https://www.kaggle.com/datasets
+* https://www.reddit.com/r/datasets/
+
+#### Dataset licenses
+When you select a dataset, it is necessary to look into the license. A license explains whether you can use that dataset or not; or explains if you have to accept certain guidelines to use that dataset. The different license types are listed below.
+
+1. **PUBLIC DOMAIN MARK - PUBLIC DOMAIN**  
+When a dataset has a Public Domain license, all the rights to use, access, modify and share the dataset are open to everyone. Here there is technically no license.
+
+2. **OPEN DATA COMMONS PUBLIC DOMAIN DEDICATION AND LICENSE – PDDL**  
+Open Data Commons license has the same features as the Public Domain license, but the difference is the PDDL license uses a licensing mechanism to give the rights to the dataset.
+
+3. **CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL CC-BY** 
+This license allows users to share and modify a dataset, but only if they give credit to the creator(s) of the dataset.
+
+4. **COMMUNITY DATA LICENSE AGREEMENT – CDLA PERMISSIVE-2.0**  
+Like most open-source licenses, this license allows users to use, modify, adapt, and share the dataset, but only if a disclaimer of warranties and liability is also included.
+
+5. **OPEN DATA COMMONS ATTRIBUTION LICENSE - ODC-BY**  
+This license allows users to share and adapt a dataset, but only if they give credit to the creator(s) of the dataset.
+
+6. **CREATIVE COMMONS ATTRIBUTION-SHAREALIKE 4.0 INTERNATIONAL - CC-BY-SA**  
+This license allows users to use, share, and adapt a dataset, but only if they give credit to the dataset and show any changes or transformations, they made to the dataset. Users might not want to use this license because they have to share the work they did on the dataset.
+
+7. **COMMUNITY DATA LICENSE AGREEMENT – CDLA-SHARING-1.0**  
+This license uses the principle of ‘copyleft’: users can use, modify, and adapt a dataset, but only if they don’t add license restrictions on the new work(s) they create with the dataset.
+
+8. **OPEN DATA COMMONS OPEN DATABASE LICENSE - ODC-ODBL**  
+This license allows users to use, share, and adapt a dataset but only if they give credit to the dataset and show any changes or transformations they make to the dataset. Users might not want to use this license because they have to share the work they did on the dataset.
+
+9. **CREATIVE COMMONS ATTRIBUTION-NONCOMMERCIAL 4.0 INTERNATIONAL - CC BY-NC**  
+This license is a restrictive license. Users can share and adapt a dataset, provided they give credit to its creator(s) and ensure that the dataset is not used for any commercial purpose.
+
+10. **CREATIVE COMMONS ATTRIBUTION-NO DERIVATIVES 4.0 INTERNATIONAL - CC BY-ND**  
+This license is also a restrictive license. Users can share a dataset if they give credit to its creator(s). This license does not allow additions, transformations, or changes to the dataset.
+
+11. **CREATIVE COMMONS ATTRIBUTION-NONCOMMERCIAL-SHAREALIKE 4.0 INTERNATIONAL - CC BY-NC-SA**  
+This license allows users to share a dataset only if they give credit to its creator(s). Users can share additions, transformations, or changes to the dataset, but they cannot use the dataset for commercial purposes.
+
+12. **CREATIVE COMMONS ATTRIBUTION-NONCOMMERCIAL-NODERIVATIVES 4.0 INTERNATIONAL - CC BY-NC-ND**  
+This license allows users to share a dataset only if they give credit to its creator(s). Users are not allowed to modify the dataset and are not allowed to use it for commercial purposes.
+
+### Sharing Enterprise Data - Data Asset eXchange
+**IBM Data Asset Exchange (DAX)** is a curated repository of open datasets provided by IBM, offering high quality data with clear licensing terms (CDLA): https://developer.ibm.com/feeds/data-asset-exchange/data/
+
+Notebooks from DAX can be downloaded, but also can be easily loaded and executed in Watson Studio. Users can perform data analysis, build models, and create visualizations within Watson Studio.
+
+#### Benefits of using DAX
+* **Access to unique datasets:** Provides access to a variety of datasets, including images, video, text, and audio, from IBM Research and trusted third-party sources.
+* **Enterprise-ready data:** Datasets are curated and prepared for use in enterprise applications.
+* **Tutorial notebooks:** Includes notebooks that guide users through data cleaning, preprocessing, and exploratory analysis.
+* **Advanced notebooks:** Some datasets have notebooks demonstrating more complex tasks like machine learning, deep learning integration, and statistical analysis.
+* **Simplified access:** Offers a single platform to access and explore diverse datasets.
+
+### Machine Learning Models - Learning from Models to Make Predictions
+By understanding the different types of machine learning models and the steps involved in building and deploying them, data scientists can effectively leverage these powerful tools to solve a wide range of real-world problems.
+
+**Machine Learning Model** is an algorithm that learns patterns from data to make predictions or decisions. It's like a student who learns from examples and then applies that knowledge to solve new problems.
+
+**Model Training** is the process of "teaching" the model by feeding it data and letting it learn the patterns.
+
+#### Types of machine learning
+* **Supervised Learning:** The model learns from labeled data (input-output pairs), like a student learning with a teacher and answer key.
+    * **Regression:** Predicts a numerical value (e.g., house price).
+    * **Classification:** Predicts a category or class (e.g., spam or not spam)
+* **Unsupervised Learning:** The model learns from unlabeled data, finding patterns and structures on its own, like a detective analyzing clues to solve a case.
+    * **Clustering:** Groups similar data points together (e.g., customer segmentation).
+    * **Anomaly detection:** Identifies unusual or outlier data points (e.g., fraud detection)
+* **Reinforcement Learning:** The model learns through trial and error, receiving rewards for correct actions and penalties for incorrect ones, like a mouse learning to navigate a maze.
+
+#### Deep Learning
+**Deep learning** is a specialized type of machine learning that uses artifical neural networks to simulate human-like learning. 
+
+* Is used for complex tasks like image recognition, natural language processing, and time series forecasting.
+* Requires larga datasets and significant computing power.
+* Can be built from scratch or using pre-trained models from model zoos (e.g., TensorFlow, PyTorch)
+
+#### Building a machine learning model example
+1. **Collect and prepare data:** Gather and label the data (e.g., images with objects labeled).
+2. **Choose or build a model:** Select a pre-trained model or create a new one.
+3. **Train the model:** Feed the labeled data to the model and let it learn.
+4. **Analyze and refine:** Evaluate the model's performance and repeat steps 3 and 4 until satisfactory.
+5. **Deploy the model:** Make the trained model available for use in applications.
+
+### The Model Asset eXchange
+The **Model Asset eXchange (MAX)** is a free, open-source repository provided by IBM that offers pre-trained and customizable deep learning models as microservices.
+
+#### Benefits of using MAX
+* **Recuced time to value:** Leveraging pre-trained models eliminates the need to train models from scratch, saving significant time and resources.
+* **Ready-to-use microservices:** Models are packaged as microservices with pre- and post-processing code and a standardized API for easy integration into applications.
+* **Open-source licenses:** Models are available under permissive licenses, allowing for personal and commercial use.
+* **Diverse model domains:** Covers various domains, including object detection, image classification, natural language processing, and more.
+
+#### Components of a model-serving microservice
+* Pre-trained deep learning model
+* Input pre-processing code
+* Output post-processing code
+* Standardized API for application access
+
+#### Deployment and Customization
+* Microservices are distributed as Docker images, making them easy to deploy and manage.
+* Docker image source code is available on GitHub for customization.
+* Kubernetes (and platforms like Red Hat OpenShift) can be used to automate deployment, scaling, and management of the microservices.
+
+# Module 4: Jupyter Notebooks and JupyterLab <a name='module-4'></a>
+
+## Jupyter Notebooks and Jupyter Lab
+By understanding the capabilities and usage of Jupyter Notebooks and JupyterLab, data scientists can effectively document their work, experiment with code, visualize results, and collaborate with others, making it an essential tool for data science projects.
+
+### Introduction to Jupyter Notebooks
+**Jupyter Notebook** is an interactive, browser-based tool that allows you to combine code, visualizations, equations, and narrative text in a single document. It's like a digital lab notebook for scientists, where they can experiment, document their work, and share their findings.
+
+#### Key features of Jupyter notebooks:
+* Combines code, output, and descriptive text in one file.
+* Supports various programming languages (Python, R, Julia, etc.)
+* Allows for interactive execution of code and visualization results.
+* Facilitates sharing and collaboration.
+
+**JupyterLab** is the next-generation user interface for Jupyter notebooks, offering a more flexible and extensible environment.
+
+#### Key features of JupyterLab
+* Work with multiple notebooks, code files, and data files simultaneously.
+* Integrates with various tools and extensions.
+* Supports different file formats (CSV, JSON, PDF, etc.)
+* Provides a more modern and user-friendly interface.
+
+#### Using Jupyter notebooks:
+* **Cloud-based services:** Platforms like IBM Watson Studio and Google Colab offer hosted Jupyter Notebook environments, eliminating the need for local installation.
+* **Local installation:** Jupyter Notebooks can be installed locally using pip or Anaconda.
+* **Skills Network Labs:** Provides a hosted JupyterLab environment for this course, allowing you to complete hands-on labs without local installation.
+
+### Getting Started with Jupyter
+By mastering these basic operations in Jupyter Notebooks, you can efficiently write and execute code, organize your work, create presentations, and manage your notebook sessions, making your data science workflow smoother and more productive.
+
+#### Running Code
+* You can run individual code cells by selecting the cell and clicking the "Run" button or using the shortcut `Shift + Enter`.
+* To run all cells in the notebook, use the "Run All Cells" option in the "Run" menu.
+
+#### Inserting and Deleting Cells:
+* Insert new cells by clicking the "+" button in the toolbar.
+* Delete cells by selecting the cell and clicking "Edit" -> "Delete Cells" or pressing the "D" key twice.
+
+#### Working with Multiple Notebooks:
+* Open new notebooks by clicking the "+" button and selecting the desired file or using the "File" menu.
+* Arrange notebooks side-by-side or in tabs for easier comparison and interaction.
+
+#### Presenting Notebooks:
+* Use Markdown cells to add headings, text descriptions, and structure to your notebook.
+* Create presentations by converting code cells and their outputs into slides and sub-slides.
+* This allows you to effectively communicate your code, visualizations, and findings.
+
+#### Shutting Down Notebooks:
+* Click the "stop" icon (square icon) in the sidebar to shut down a notebook's kernel (its computational engine).
+* This releases resources and ensures the notebook is no longer active.
+* You can shut down individual notebooks or terminate all sessions at once.
+
+### Jupyter Kernels
+**Kernel** is the computational engine that executes the code within a Jupyter Notebook. Think of it as the "brain" of the notebook that understands and runs your code.
+
+**Language Support:** Jupyter supports various programming languages through kernels. This means you can use languages like Python, R, Julia, and others within the same Jupyter environment.
+
+**Kernel Startup** When you open a Jupyter Notebook, the associated kernel for the chosen language starts automatically.
+
+**Code Execution:** When you run a code cell in the notebook, the kernel processes the code and produces the results.
+
+**Kernel Selection:** You can choose the kernel when creating a new notebook or switch between kernels in an existing notebook. In Skills Network Labs, several kernels (Python, Apache, Julia, R, Swift) are pre-installed. For local installations, you might need to install kernels for specific languages manually.
+
+### Jupyter Architecture
+Jupyter uses a **two-process model** consisting of a **kernel** and a **client**.
+* The **client** is the user interface (your web browser) where you write and execute code.
+* The **kernel** is a separate process that runs the code and returns the results to the client.
+
+#### Components of Jupyter architecture
+* **Client (Browser):** The interface where you interact with the notebook.
+* **Notebook Server:** Handles saving and loading notebooks, managing kernels, and other backend tasks.
+* **Kernel:** Executes the code in the notebook cells and returns the output.
+* **Notebook file (ipynb):** Stores your code, metadata, content, and outputs in a JSON format.
+
+#### File conversion with NBConvert
+Jupyter uses the NBConvert tool to convert notebooks into other formats. (e.g., HTML, PDF)
+
+The conversion process involves:
+* **Preprocessor:** Modifies the notebook before conversion.
+* **Exporter:** Converts the notebook into the target format.
+* **Postprocessor:** Performs final adjustments on the exported file.
+
+### Additional Anaconda Jupyter Environments
