@@ -5,6 +5,8 @@
 2. [Module 2: Languages of Data Science](#module-2)
 3. [Module 3: Packages, APIs, Data Sets, and Models](#module-3)
 4. [Module 4: Jupyter Notebooks and JupyterLab](#module-4)
+5. [Module 5: RStudio and GitHub](#module-5)
+
 
 
 # Module 1: Overview of Data Science Tools <a name="module-1"></a>
@@ -475,3 +477,141 @@ The conversion process involves:
 * **Postprocessor:** Performs final adjustments on the exported file.
 
 ### Additional Anaconda Jupyter Environments
+* **Anaconda:** A free and open-source distribution of Python and R, widely used in data science and machine learning. It simplifies package management and deployment and includes a suite of tools for data science tasks.
+* **Anaconda Navigator:** A graphical user interface (GUI) included in Anaconda that allows users to easily manage packages, environments, and launch applications like JupyterLab and VS Code.
+* **JupyterLab:** 
+    * A web based interactive development environment for Jupyter Notebooks, offering a more modern and extensible interface compared to the classic Jupyter Notebook.
+    * Comes pre-installed with Anaconda and includes popular data science libraries like NumPy, Pandas, and Matplotlib.
+* **VS Code (Visual Studio Code):** 
+    * A free and open-source code editor that supports various programming languages and offers features like debugging, task running, and extensions for enhanced functionality.
+    * Can be launched from Anaconda Navigator or installed separately.
+    * Requires additional extensions to be configured for PYthon and Jupyter Notebooks.
+
+### Additional Cloud Based Jupyter Environments
+**Cloud-based Jupyter environments** are online platforms that host Jupyter Notebooks, allowing you to access and run them without any local installation. They often provide additional features like collaboration, sharing, and access to powerful computing resources.
+
+#### JupyterLite
+* A lightweight version of JupyterLab that runs entirely on your web browser.
+* No need for a server, it can be deployed as a static website.
+* Supports interactive visualizations and common visualization libraries (Altair, Plotly, etc.)
+* Includes the lates JupyterLab features and improvements.
+* Uses Python kernels like Pyodide (for running Python in the browser) and Pyolite (optimized for faster execution)
+
+#### Google Colab
+* A free cloud-based Jupyter environment provided by Google.
+* Notebooks run in the browser, and projects can be stored on Google Drive and GitHub.
+* Offers easy sharing and collaboration features.
+* Comes with pre-installed machine learning and visualization libraries (scikit-learn, matplotlib, etc.).
+* Enables quick development and experimentation with data science applications.
+
+### Jupyter Notebooks on the internet
+There are thousands of interesting Jupyter Notebooks available on the internet for you to learn from. One of the best sources is: https://github.com/jupyter/jupyter/wiki
+
+# Module 5: RStudio and GitHub <a name="module-5"></a>
+
+## RStudio IDE
+
+### Introduction to R and RStudio
+
+#### R Language
+R is a powerful statistical programming language widely used in academia, healthcare, and government for data analysis, statistical inference, and machine learning.
+
+**Capabilites of R:**  
+* Data import from various sources (flat files, databases, statistical software)
+* Easy-to-use functions for data manipulation and analysis
+* Strong data visualization capabilities
+* Extensive packages for advanced statistical modelling and machine learning
+
+#### RStudio
+RStudio is a popular integrated development environment (IDE) that enhances productivity when working with R.
+
+**Key fearures of RStudio:**  
+* Syntax-highlighting editor for writing and executing code.
+* Console for interactive command execution.
+* Workspace and History tabs to track objects and commands.
+* Files, Plots, Packages, and Help tabs for managing files, visualizations, libraries, and documentation.
+
+#### Popular R libraries for data science
+* **dplyr:** Provides a grammar of data manipulation, making it easier to work with data frames.
+* **stringr:** Offers tools for string manipulation and processing.
+* **ggplot2:** A powerful and versatile library for creating high-quality data visualizations.
+* **care:** Simplifies the process of training and evaluating machine learning models.
+
+### Plotting in RStudio
+
+#### R Data Visualization Packages:
+* **ggplot2:** A versatile and widely used package for creating various types of plots and charts, known for its layered approach to visualization.
+* **plotly:** Creates interactive, web-based visualizations that can be embedded in web pages or saved as HTML files.
+* **lattice:** A high-level graphics package for visualizing multivariate data, often used for creating trellis plots.
+* **leaflet:** Creates interactive maps and geospatial visualizations.
+
+#### Inbuilt R Plot Function:
+* R provides a basic `plot()` function for creating simple scatterplots.
+* You can customize the plot by adding lines `(type="l")` and titles `(main="Title")`.
+
+#### ggplot2 Library:
+* Offers a more powerful and flexible way to create visualizations.
+* Uses a "grammar of graphics" approach, allowing you to build plots layer by layer.
+* `ggplot()` function initializes the plot, and `geom_point()` adds data points as a scatterplot.
+* `ggtitle()` adds a title to the plot.
+* `labs()` customizes axis labels and other plot elements.
+
+#### GGally Extension:
+* Extends ggplot2 with additional functions to simplify complex visualizations and analysis.
+* Provides tools for creating scatterplot matrices, parallel coordinate plots, and other advanced visualizations.
+
+## GitHub
+
+### Overview of Git/GitHub
+
+#### Version Control
+**Version control** is a system that tracks changes to files over time, allowing you to revert to previous versions, collaborate with others, and manage different versions of your project. Think of it like having a "time machine" for your files.
+
+#### Git
+**Git** is a free and open-source distributed version control system. "Distributed" means that every developer has a complete copy of the project history on their local machine, enabling offline work and flexible collaboration.
+
+#### GitHub
+**GitHub** is a popular web-based platform that provides hosting for Git repositories. It offers tools for collaboration, code review, issue tracking, and project management.
+
+#### Key Git/GitHub terminology:
+* **SSH:** A secure protocole for remote login and communication.
+* **Repository:** A directory containing your project files and the history of changes.
+* **Fork:** A copy of a repository, allowing you to experiment with changes without affecting the original.
+* **Pull request:** A request to merge your changes into another branch or repository, initiating a code review process.
+* **Working directory:** The current state of your project files on your local machine.
+
+#### Essential Git commands:
+* `git init`: Initializes a new Git repository.
+* `git add`: Stages changes for commit.
+* `git status`: Shows the status of your working directory and stated changes
+* `git commit`: Saves a snapshot of your changes with a message
+* `git reset`: Undoes changes
+* `git log`: Shows the history of communities
+* `git branch`: Creates or lists branches
+* `git checkout`: Switches between branches
+* `git merge`: Combines changes from different branches
+
+### Introduction to GitHub
+
+#### Source Repositories
+Centralized storage locations for managing and tracking changes to files, especially source code during software development. They help maintain version history, faciliate collaboration, and ensure code integrity.
+
+#### Key characteristics of Git
+* Strong support for non-linear development
+* Distributed development, allowing each developer to have a local copy of the entire project history.
+* Compability with existing systems and protocols.
+* Efficient handling of large projects.
+* Cryptographic authentication of history to ensure data integrity.
+* Flexible merge strategies for handling complex code integrations.
+
+#### GitHub
+A web-based hosting service for Git repositories, providing a platform for collaboration, code review, and project management.
+
+#### Benefits of using GitHub
+* Centralized platform for managing Git repositories.
+* Facilitates collaboration among developers through features like pull requests, code reviews, and issue tracking.
+* Offers various account types (free, professional, enterprise) to cater to different needs.
+* Provides a user-friendy interface for interacting with Git repositories.
+
+
+
