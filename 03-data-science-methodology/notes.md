@@ -138,26 +138,6 @@ When choosing an analytical approach for a problem, the type of question you're 
 * Image classification
 * Disease diagnosis
 
+## From Requirements to Collection
 
-
-
-
-
-
----
-
-* **Descriptive:**  
-    * Current status
-* **Diagnostic (Statistical analysis):**  
-    * What happened?
-    * Why is this happening?
-* **Predictive (Forecasting):**  
-    * What if these trends continue?
-    * What will happen next?
-* **Prescriptive:**  
-    * How do we solve it?
-
-**If the question is to determine the probabilities of an action**, use a predictive model.  
-**If the question is to show relationships**, use a descriptive model.
-**If the question requires a yes/no answer**, use a classification model.
-
+### Data Requirements
