@@ -64,6 +64,7 @@ When choosing an analytical approach for a problem, the type of question you're 
 
 #### 1. Descriptive Questions: "What is the current status?"
 **Approach: Descriptive Analytics**  
+
 **Question:** "What is the current status of our sales?"  
 
 **Techniques:** 
