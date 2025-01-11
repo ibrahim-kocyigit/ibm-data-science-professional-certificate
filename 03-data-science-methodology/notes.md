@@ -79,9 +79,66 @@ When choosing an analytical approach for a problem, the type of question you're 
 
 #### 2. Diagnostic Questions: "Why did it happen?"
 **Approach: Diagnostic Analytics**  
+
 **Question:** "Why did our sales decline in the last quarter?"  
+
 **Techniques:**  
-* 
+* Drill-down: Exploring detailed data to find underlying causes.
+* Data discovery: Identifying patterns and relationships in data.
+* Correlation analysis: Assessing the relationship between different variables.
+
+**Examples:**  
+* Identifying root causes for sales decline
+* Analyzing customer complaints
+* Understanding failure points in a process
+
+#### 3. Predictive Questions: "What is likely to happen?"
+**Approach: Predictive Analytics**  
+
+**Question:** "What is our sales forecast for the next year?"  
+
+**Techniques:** 
+* Regression analysis: Predicting outcomes based on relationships between variables.
+* Time series forecasting: Predicting future values based on past trends.
+* Machine learning models: Using algorithms to predict future outcomes based on historical data.
+
+**Examples:**  
+* Forecasting sales
+* Predicting customer churn
+* Estimating future demand
+
+#### 4. Prescriptive Questions: "What should we do?"
+**Approach: Prescriptive Analytics**  
+
+**Question:** "What should we do to increase website traffic?"
+
+**Techniques:**  
+* Optimization models: Finding the best solution from a set of alternatives.
+* Simulation: Modeling scenarios to predict outcomes.
+* Decision analysis: Evaluating and comparing different decisions.
+
+**Examples:**  
+* Recommending inventory levels
+* Optimizing marketing campaigns
+* Determining pricing strategies
+
+#### 5. Classification Questions: "Which category does this belong to?"
+**Approach: Classification (Supervised Learning)**  
+
+**Question:** Which category does this data point belong to?"
+
+**Techniques:**  
+* Logistic regression: Predicting the probability of a categorical outcome.
+* Decision trees: Splitting data into branches to classify it.
+* Support vector machines: Finding the best boundary to separate categories.
+* Neural networks: Using interconnected nodes to classify data.
+
+**Examples:**  
+* Email spam detection
+* Image classification
+* Disease diagnosis
+
+
 
 
 
