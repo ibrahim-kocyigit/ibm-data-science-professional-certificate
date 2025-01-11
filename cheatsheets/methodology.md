@@ -1,4 +1,4 @@
-#### 10 Stages of Data Science Methodology
+# 10 Stages of Data Science Methodology
 
 1. **Business Understanding:**  
 _"What problem am I trying to solve?"_
