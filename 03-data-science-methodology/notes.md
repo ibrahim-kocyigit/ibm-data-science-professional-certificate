@@ -64,7 +64,7 @@ When choosing an analytical approach for a problem, the type of question you're 
 
 #### 1. Descriptive Questions: "What is the current status?"
 **Approach: Descriptive Analytics**  
-**Question:** "What is the current status of our sales?"
+**Question:** "What is the current status of our sales?"  
 **Techniques:** 
 * Data aggregation: Combining data from various sources into a unified view.
 * Data mining: Extracting useful information from large datasets.
