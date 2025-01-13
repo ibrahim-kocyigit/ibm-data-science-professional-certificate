@@ -61,7 +61,7 @@ Facilitates the storage, organization, and retrieval of data. Includes Relationa
 * Scalable and efficient
 
 ### Ceph
-* Free, open source software-defined storage platfor suitable for hybrid cloud environments.
+* Free, open source software-defined storage platform suitable for hybrid cloud environments.
 * Designed for modern data centers.
 * Provides highly scalable, unified storage system that can be used for object storage (like AWS S3), block storage (like virtual disks for VMs), and file storage (like NFS) under one unified system.
 * High performance, availability, and reliability.
@@ -118,7 +118,7 @@ Streamlines data pipelines and automate data processing workflows. Task of data 
 * Supports a wide range of data sources and provides optimized performance for complex data processing tasks.
 
 ### Node-RED
-* An open source visual programming tool for wiring together hardware devicies, API's, and online services.
+* An open source visual programming tool for wiring together hardware devices, API's, and online services.
 * Allows users to create event-driven flows of messages
 * Low in resource consumption that it even runs on tiny devices like a Raspberry Pi
 * Support for:
@@ -135,7 +135,7 @@ Streamlines data pipelines and automate data processing workflows. Task of data 
 
 ### Hue
 * Open source web interface for analyzing and visualizing large datasets in Apache Hadoop.
-* Offers a user-friendy experience for exploring data and creating visualizations.
+* Offers a user-friendly experience for exploring data and creating visualizations.
 * No need for programming skills; can create visualizations from SQL queries.
 
 ### Kibana
@@ -179,13 +179,13 @@ Supports the building, deploying, monitoring, and evaluation of data and machine
 
 ### MLeap
 * Open source library for serializing and deserializing learning models in a cross-platform file
-* Gives users the bility to export models from different machine learning libraries and frameworks such as Spark, Scikit-learn, and TensorFlow.
+* Gives users the ability to export models from different machine learning libraries and frameworks such as Spark, Scikit-learn, and TensorFlow.
 * Implements them in high-throughput, low-latency production environments.
 
 ### TensorFlow Lite
 * Open source tool for running machine learning models on mobile and embedded devices.
 * Allows effective inference on mobile and embedded platforms.
-* Supports a variety of hardware accelerators such as CPUs, GPUs, custon ASICs.
+* Supports a variety of hardware accelerators such as CPUs, GPUs, custom ASICs.
 
 ### Red Hat OpenShift
 * Container application framework based on Kubernetes

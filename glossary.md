@@ -80,7 +80,7 @@
 
 **Congestive Heart Failure:** A chronic condition in which the heart cannot pump enough blood to meet the body's needs, resulting in fluid buildup and symptoms such as shortness of breath and fatigue.
 
-**CRISP-DM:** Cross-Industry Standart Process for Data Mining is a widely used methodology for data mining and analytics projects encompassing six phaes: Business understanding, data understanding, data preparation, modeling, evaluation, and deployment.
+**CRISP-DM:** Cross-Industry Standard Process for Data Mining is a widely used methodology for data mining and analytics projects encompassing six phases: Business understanding, data understanding, data preparation, modeling, evaluation, and deployment.
 
 **C++:** A general purpose programming language. It's an extension of the C programming language
 
@@ -106,11 +106,11 @@
 
 **Data Integration:** A discipline involving practices, architectural techniques, and tools that enable organizations to ingest, transform, combine, and provision data across various data types, used for purposes such as data consistency, master data management, data sharing, and data migration.
 
-**Data Lake:** A data repository for storing large volumes of structured, semi-structured, and unstructured data in its native format, faciliating agile data exploration and analysis.
+**Data Lake:** A data repository for storing large volumes of structured, semi-structured, and unstructured data in its native format, facilitating agile data exploration and analysis.
 
 **Data Manipulation:** The process of transforming data into a usable format.
 
-**Data Mart:** A subset of a data warehose designed for specific business functions or user communities, providing isolated security and performance for focused analytics.
+**Data Mart:** A subset of a data warehouse designed for specific business functions or user communities, providing isolated security and performance for focused analytics.
 
 **Data Mining:** The process of automatically searching and analyzing data to discover patterns and insights that were previously unknown.
 
@@ -214,7 +214,7 @@
 
 **Hadoop:** A distributed storage and processing framework used for handling and analyzing large datasets, particularly well-suited for big data analytics and data science applications.
 
-**Hadoop Distributed File System (HDFS):** A storage system within the Hadoop framework that partitions and distributes files across multiple nodes, faciliating parallel data access and fault tolerance.
+**Hadoop Distributed File System (HDFS):** A storage system within the Hadoop framework that partitions and distributes files across multiple nodes, facilitating parallel data access and fault tolerance.
 
 **High Performing Computing (HPC) Cluster:** A computing technology that uses a system of networked computers designed to solve complex and computationally intensive problems in traditional environments.
 
@@ -224,7 +224,7 @@
 
 **Intermediate Results:** Partial results obtained from predictive modeling, can influence decisions on acquiring additional data.
 
-**Iteration:** A single cycle or repetition of a process, often involves refining or modifiying a solution based on feedback or new information.
+**Iteration:** A single cycle or repetition of a process, often involves refining or modifying a solution based on feedback or new information.
 
 **Iterative Process:** A process that involves repeating a series of steps or actions to refine and improve a solution or analysis. Each iteration builds upon the previous one.
 
@@ -264,11 +264,11 @@
 
 **Matplotlib:** A package for data visualization.
 
-**Matrices:** Plural for matric, matrices are a rectangular (tabular) array of numbers often used in mathematics, statistics, and computer science.
+**Matrices:** Plural for matrix, matrices are a rectangular (tabular) array of numbers often used in mathematics, statistics, and computer science.
 
 **Mean:** The average value of a set of numbers. Is calculated by summing all the values and dividing by the total number of values.
 
-**Median**: When arranged in ascending or descending order, the middle value in a set of numbers. Divies the data into two equal halves.
+**Median**: When arranged in ascending or descending order, the middle value in a set of numbers. Divides the data into two equal halves.
 
 **Missing Values:** Values that are absent or unknown in the dataset, requiring careful handling during the data preparation.
 
@@ -340,7 +340,7 @@
 
 **REST:** Representational State Transfer.
 
-**Rstudio:** Unifies programming, execution, debugging, remote data access, data exploration, and visualization into one tool.
+**RStudio:** Unifies programming, execution, debugging, remote data access, data exploration, and visualization into one tool.
 
 **Scala:** Is a combination of the words "scalable" and "language". A general-purpose programming language that provides support for functional programming and is a strong static type system.
 
@@ -384,7 +384,7 @@
 
 **Tab-separated Values (TSVs):** Delimited text files where the delimiter is a tab. Used as an alternative to CSV.
 
-**TCP/IP Network:** A network that uses the TCP/IP protocol to communicate between connected devices on that network. The Intertet uses TCP/IP.
+**TCP/IP Network:** A network that uses the TCP/IP protocol to communicate between connected devices on that network. The Internet uses TCP/IP.
 
 **TensorFlow:** Deep learning library for dataflow that was built with C++
 

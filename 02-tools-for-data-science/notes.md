@@ -21,13 +21,13 @@
 * **Data Visualization:** This is where you create charts, graphs, and other visuals to help people understand the data. Think of it as translating raw numbers into pictures that tell a story. A good visualization can reveal patterns and insights that would be difficult to see in a table of numbers.
 * **Model Building:** This is where you use machine learning algorithms to find patterns in the data and make predictions. It's like teaching a computer to recognize patterns and make decisions based on what it learns. You might build a model to predict customer churn, detect fraud, or recommend products.
 * **Model Deployment:** Once you've built a model, you need to make it available for others to use. This might involve creating an API (Application Programming Interface) that allows other applications to access your model and get predictions. It's like setting up a service that others can use to benefit from your model's capabilities.
-* **Model Monitoring and Assessment:** After deploymen, you need to keep an eye on your model to make sure it's performing well. This involves tracking its accuracy, fairness, and robustness over time. You might need to retrain your model with new data or adjust its parameters to maintain its performance.
+* **Model Monitoring and Assessment:** After deployment, you need to keep an eye on your model to make sure it's performing well. This involves tracking its accuracy, fairness, and robustness over time. You might need to retrain your model with new data or adjust its parameters to maintain its performance.
 
 #### Tools for Data Science
 * **Code Asset Management:** This is like using a special notebook for your code where you can track changes, collaborate with others, and revert to earlier versions if needed. Tools like Git and GitHub help you manage your code and work effectively in teams.
 * **Data Asset Management:** This is about organizing and managing your data files (images, videos, text, etc.) in a central location. You might use a DAM (Digital Asset Management) platform to store, version, and share your data securely.
 * **Development Environments:** These are like workshops for your code. They provide you with the tools and resources you need to write, test, and debug your code. Popular IDEs (Integrated Development Environments) include VS Code, PyCharm, and RStudio.
-* **Execution Environments:** This is where your code actuall runs. It could be your local computer, a server, or a cloud-based platform. Cloud platforms like AWS, Azure, and GCP offer scalable execution environments for running data science workloads.
+* **Execution Environments:** This is where your code actual runs. It could be your local computer, a server, or a cloud-based platform. Cloud platforms like AWS, Azure, and GCP offer scalable execution environments for running data science workloads.
 
 **Integrated tools:** Platforms like IBM Watson Studio provide a one-stop shop for many data science tasks. The combine data management, code management, development environments, and execution environments into a single platform.
 
@@ -52,7 +52,7 @@ By understanding the strengths and weaknesses of the open-source tools, data sci
     * Similar to Jupyter Notebooks but with integrated plotting capabilities that don't require coding.
     * Can be extended with additional libraries for more advanced functionalities.
 * **RStudio:**  
-    * A dedicated IDE for R, providing a comprehensive environment for programming, execution, debugging, data access, exloration, and visualization.
+    * A dedicated IDE for R, providing a comprehensive environment for programming, execution, debugging, data access, exploration, and visualization.
     * While focused on R, it also allows Python development and integrates well with Jupyter.
 * **Spyder:**  
     * A Python-focused IDE inspired by RStudio, offering a similar interface and features.
@@ -115,7 +115,7 @@ Python is the most widely used language in data science, with the majority of da
 ### Introduction to R Language
 
 #### Open source vs. Free software
-* **Similarities:** Both are free to use, often use the same licences (e.g., GNU), and support collaboration.
+* **Similarities:** Both are free to use, often use the same licenses (e.g., GNU), and support collaboration.
 * **Differences:** Open source is championed by the Open Source Initiative (OSI) and is more business focused, while free software is defined by the Free Software Foundation (FSF) and emphasizes user freedom and ethical values.
 
 #### Why use R?
@@ -161,7 +161,7 @@ By understanding the applications and strengths of these languages, data scienti
 #### Scala
 * A general purpose language that combines object-oriented and functional programming paradigms.
 * Designed to address some limitations of Java while remaining interoperable with it.
-* Known for its sxalability and expressiveness.
+* Known for its scalability and expressiveness.
 * Widely used in data science for building distributed systems like Apache Spark (a fast and general purpose cluster computing system).
 
 #### C++
@@ -176,7 +176,7 @@ By understanding the applications and strengths of these languages, data scienti
 #### Julia 
 * A high-performance language specifically designed for numerical and scientific computing.
 * Offers a balance of development speed and execution speed.
-* Can call libraires from other languages (C, Python, R, etc.)
+* Can call libraries from other languages (C, Python, R, etc.)
 * Used in data science for tools like JuliaDB (for working with large datasets.)
 
 # Module 3: Packages, APIs, Data Sets, and Models <a name="module-3"></a>
@@ -188,11 +188,11 @@ By understanding the capabilities of these libraries, data scientists can levera
 
 #### Scientific Computing Libraries in Python
 * **Pandas:** Provides data structures (like DataFrames) and tools for data manipulation, cleaning, and analysis. It's essential for working with structured data in Python.
-* **NumPy:** The foundation for numerical computing in Python. It provides tools for working with arrays and matrices, enabling efficient mathemathical operations.
+* **NumPy:** The foundation for numerical computing in Python. It provides tools for working with arrays and matrices, enabling efficient mathematical operations.
 
 #### Visualization Libraries in Python
 * **Matplotlib:** A versatile library for creating various types of plots and charts. It's highly customizable and widely used for data visualization in Python.
-* **Seaborn:** Built on top of Matplotlib, Seaborn provides a higher-level interface for creating statistically informative and visually appealing plots like heatmaps, time series, and violin pilots.
+* **Seaborn:** Built on top of Matplotlib, Seaborn provides a higher-level interface for creating statistically informative and visually appealing plots like heat maps, time series, and violin pilots.
 
 #### Machine Learning and Deep Learning Libraries in Python
 * **Scikit-learn:** A comprehensive library for various machine learning tasks, including classification, regression, clustering, dimensionality reduction, and model selection. It's user-friendly and widely used for building and evaluating models.
@@ -245,11 +245,11 @@ By understanding the concepts of datasets, data ownership, and licensing, data s
 * Online communities (e.g., Kagge)
 * Search engines (e.g., Google Dataset Search)
 
-#### Community Data Licence Aggrement (CDLA)
-* Created by the Linux Foundation to address licencing issues specific to datasets. The CDLA makes it easier to share and use open data while respecting creator's rights.
+#### Community Data License Agreement (CDLA)
+* Created by the Linux Foundation to address licensing issues specific to datasets. The CDLA makes it easier to share and use open data while respecting creator's rights.
 * **CDLA-Sharing:** Allows use and modification of data, but requires sharing modified versions under the same license.
 * **CDLA-Permissive:** Allow use and modification without requiring sharing of changes.
-* **Important note:** Neither licence restricts the sharing or licensing the results derived from the data (e.g., machine learning models).
+* **Important note:** Neither license restricts the sharing or licensing the results derived from the data (e.g., machine learning models).
 
 ### Additional Sources of Datasets
 #### Government Data:
@@ -361,10 +361,10 @@ By understanding the different types of machine learning models and the steps in
 * **Reinforcement Learning:** The model learns through trial and error, receiving rewards for correct actions and penalties for incorrect ones, like a mouse learning to navigate a maze.
 
 #### Deep Learning
-**Deep learning** is a specialized type of machine learning that uses artifical neural networks to simulate human-like learning. 
+**Deep learning** is a specialized type of machine learning that uses artificial neural networks to simulate human-like learning. 
 
 * Is used for complex tasks like image recognition, natural language processing, and time series forecasting.
-* Requires larga datasets and significant computing power.
+* Requires large datasets and significant computing power.
 * Can be built from scratch or using pre-trained models from model zoos (e.g., TensorFlow, PyTorch)
 
 #### Building a machine learning model example
@@ -378,7 +378,7 @@ By understanding the different types of machine learning models and the steps in
 The **Model Asset eXchange (MAX)** is a free, open-source repository provided by IBM that offers pre-trained and customizable deep learning models as microservices.
 
 #### Benefits of using MAX
-* **Recuced time to value:** Leveraging pre-trained models eliminates the need to train models from scratch, saving significant time and resources.
+* **Reduced time to value:** Leveraging pre-trained models eliminates the need to train models from scratch, saving significant time and resources.
 * **Ready-to-use microservices:** Models are packaged as microservices with pre- and post-processing code and a standardized API for easy integration into applications.
 * **Open-source licenses:** Models are available under permissive licenses, allowing for personal and commercial use.
 * **Diverse model domains:** Covers various domains, including object detection, image classification, natural language processing, and more.
@@ -516,7 +516,7 @@ There are thousands of interesting Jupyter Notebooks available on the internet f
 #### R Language
 R is a powerful statistical programming language widely used in academia, healthcare, and government for data analysis, statistical inference, and machine learning.
 
-**Capabilites of R:**  
+**Capabilities of R:**  
 * Data import from various sources (flat files, databases, statistical software)
 * Easy-to-use functions for data manipulation and analysis
 * Strong data visualization capabilities
@@ -525,7 +525,7 @@ R is a powerful statistical programming language widely used in academia, health
 #### RStudio
 RStudio is a popular integrated development environment (IDE) that enhances productivity when working with R.
 
-**Key fearures of RStudio:**  
+**Key features of RStudio:**  
 * Syntax-highlighting editor for writing and executing code.
 * Console for interactive command execution.
 * Workspace and History tabs to track objects and commands.
@@ -574,7 +574,7 @@ RStudio is a popular integrated development environment (IDE) that enhances prod
 **GitHub** is a popular web-based platform that provides hosting for Git repositories. It offers tools for collaboration, code review, issue tracking, and project management.
 
 #### Key Git/GitHub terminology:
-* **SSH:** A secure protocole for remote login and communication.
+* **SSH:** A secure protocol for remote login and communication.
 * **Repository:** A directory containing your project files and the history of changes.
 * **Fork:** A copy of a repository, allowing you to experiment with changes without affecting the original.
 * **Pull request:** A request to merge your changes into another branch or repository, initiating a code review process.
@@ -594,12 +594,12 @@ RStudio is a popular integrated development environment (IDE) that enhances prod
 ### Introduction to GitHub
 
 #### Source Repositories
-Centralized storage locations for managing and tracking changes to files, especially source code during software development. They help maintain version history, faciliate collaboration, and ensure code integrity.
+Centralized storage locations for managing and tracking changes to files, especially source code during software development. They help maintain version history, facilitate collaboration, and ensure code integrity.
 
 #### Key characteristics of Git
 * Strong support for non-linear development
 * Distributed development, allowing each developer to have a local copy of the entire project history.
-* Compability with existing systems and protocols.
+* Compatibility with existing systems and protocols.
 * Efficient handling of large projects.
 * Cryptographic authentication of history to ensure data integrity.
 * Flexible merge strategies for handling complex code integrations.
@@ -611,7 +611,7 @@ A web-based hosting service for Git repositories, providing a platform for colla
 * Centralized platform for managing Git repositories.
 * Facilitates collaboration among developers through features like pull requests, code reviews, and issue tracking.
 * Offers various account types (free, professional, enterprise) to cater to different needs.
-* Provides a user-friendy interface for interacting with Git repositories.
+* Provides a user-friendly interface for interacting with Git repositories.
 
 
 

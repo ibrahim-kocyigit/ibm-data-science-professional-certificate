@@ -32,7 +32,7 @@ The data science methodology presented in the course is based on the work of **J
 ### Business Understanding
 _What is the problem that I am trying to solve?_
 
-The crucial first step in the data science methodology is **business understanding**, where you gain a deep understanding of the problem you're trying to solve. This involves clarifying the goals, objectives, and stakeholders involded.
+The crucial first step in the data science methodology is **business understanding**, where you gain a deep understanding of the problem you're trying to solve. This involves clarifying the goals, objectives, and stakeholders involved.
 
 **Importance of clear problem definition:** 
 * A clearly defined problem directs the analytical approach and ensures you're solving the right problem.
