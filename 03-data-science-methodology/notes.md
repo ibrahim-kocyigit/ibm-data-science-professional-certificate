@@ -196,3 +196,10 @@ _What additional work (preprocessing) is needed to manipulate and work with the 
 
 ### Modeling: Concepts
 
+**Data modeling** is the stage where you build and train models to analyze and interpret the prepared data. This stage involves selecting appropriate algorithms, training the models, and evaluating their performance. 
+
+**Purpose of data modeling:**  
+* Develop descriptive models to understand relationships and patterns in the data.
+* Develop predictive models to forecast future outcomes or classify data into categories.
+
+[Purpose of data modeling](https://github.com/ibrahim-kocyigit/ibm-data-science-professional-certificate/blob/main/media/modeling-concepts.png)
