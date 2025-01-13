@@ -12,15 +12,19 @@
 
 **Analytics:** The systematic analysis of data using statistical, mathematical, and computational techniques to uncover insights, patterns, and trends.
 
-**Apache MLlib:** Language that makes marchine learning scalable.
+**Analytics Team:** A group of professionals, including data scientists and analysts, responsible for performing data analysis and modeling. 
 
-**Apache Spark:** A general-purpose cluster-computing framework allowing you to process data using compute slusters.
+**Apache MLlib:** Language that makes machine learning scalable.
+
+**Apache Spark:** A general-purpose cluster-computing framework allowing you to process data using compute clusters.
 
 **API:** Application Programming Interface allows communication between two pieces of software.
 
 **Arithmetic Models:** Data science often uses mathematical models to analyze data and predict outcomes.
 
 **Artificial Neural Networks:** Collections of small computing units (neurons) that process data and learn to make decisions over time.
+
+**Automation:** Using tools and techniques to streamline data collection and preparation processes.
 
 **Bayesian Analysis:** A statistical technique that uses Bayes' theorem to update probabilities based on new evidence.
 
@@ -38,11 +42,11 @@
 
 **Case study:** In-depth analysis of an instance of a chosen subject to draw insights that inform theory, practice or decision-making.
 
-**CDLA:** Community Data License Aggrement
+**CDLA:** Community Data License Agreement
 
 **Chief Data Officer (CDO):** An emerging role responsible for overseeing data-related initiatives, governance, and strategies, ensuring that data plays a central role in digital transformation efforts.
 
-**Chief Information Officer (CIO):** An executive who is responsible for managing an organization's information technologh and computer systems, contributing to technology-related aspects of digital transformation.
+**Chief Information Officer (CIO):** An executive who is responsible for managing an organization's information technology and computer systems, contributing to technology-related aspects of digital transformation.
 
 **Classification models:** Are used to predict whether some information or data belongs to a category or class.
 
@@ -64,7 +68,7 @@
 
 **Cohort:** A group of individuals who share a common characteristics or experience, is studied or analyzed as a unit.
 
-**Cohort Study:** An observational study where a group of individuals with a specific characteristic or exposure is followerd over time to determine the incidence of ourcomes or the relationship between exposures and outcomes.
+**Cohort Study:** An observational study where a group of individuals with a specific characteristic or exposure is followed over time to determine the incidence of outcomes or the relationship between exposures and outcomes.
 
 **Column-based Database:** A type of NoSQL database that organizes data in cells grouped as columns, often used for systems requiring high write request volume and storage of time-series or IoT data.
 
@@ -90,13 +94,21 @@
 
 **Data Clusters:** A group of similar, related data points distinct from other clusters.
 
+**Data Collection:** The process of gathering data from various sources, including demographics, clinical, coverage, and pharmaceutical information.
+
+**Data Compilation:** The process of organizing and structuring data to create a comprehensive dataset. 
+
 **Data File Types:** A computer file configuration is desired to store data in a specific way.
 
 **Data Format:** How data is encoded so it can be stored within a data file type.
 
+**Data Formatting:** The process of standardizing the data to ensure uniformity and ease of analysis.
+
 **Data Integration:** A discipline involving practices, architectural techniques, and tools that enable organizations to ingest, transform, combine, and provision data across various data types, used for purposes such as data consistency, master data management, data sharing, and data migration.
 
 **Data Lake:** A data repository for storing large volumes of structured, semi-structured, and unstructured data in its native format, faciliating agile data exploration and analysis.
+
+**Data Manipulation:** The process of transforming data into a usable format.
 
 **Data Mart:** A subset of a data warehose designed for specific business functions or user communities, providing isolated security and performance for focused analytics.
 
@@ -104,9 +116,17 @@
 
 **Data Pipeline:** A comprehensive data movement process that covers the entire journey of data from source systems to destination systems, which includes data integration as a key component.
 
+**Data Preparation:** The process of organizing and formatting data to meet the requirements of the modeling technique. 
+
+**Data Quality:** Assessment of data integrity and completeness, addressing missing, invalid, or misleading values.
+
+**Data Quality Assessment:** The evaluation of data integrity, accuracy, and completeness.
+
 **Data Replication:** A strategy in which data is duplicated across multiple nodes in a cluster to ensure data durability and availability, reducing the risk of data loss due to hardware failures.
 
-**Data repository:** A general term referring to data that has been collected, organized, and isolated for business operations or data analysis. It can include databases, data warehouses, and big data stores.
+**Data Repository:** A general term referring to data that has been collected, organized, and isolated for business operations or data analysis. It can include databases, data warehouses, and big data stores.
+
+**Data Requirements:** The identification and definition of the necessary data elements, formats, and sources required for analysis.
 
 **Data Science:** An interdisciplinary field that involves extracting insights and knowledge from data using various techniques, including programming, statistics, and analytical tools.
 
@@ -118,11 +138,15 @@
 
 **Data Strategy:** A plan that outlines how an organization will collect, manage, and use data to achieve its goals.
 
+**Data Understanding:** A stage where data scientists discuss various ways to manage data effectively, including automating certain processes in the database.
+
 **Data Visualization:** A visual way, such as a graph, of representing data in a readily understandable way. Makes it easier to see trends in the data.
 
 **Data Warehouse:** A central repository that consolidates data from various sources through the Extract, Transform, and Load (ETL) process, making it accessible for analytics and business intelligence.
 
 **Data-Driven Insights:** Insights derived from analyzing and interpreting data to inform decision-making.
+
+**DBAs (Database Administrators):** The professionals who are responsible for managing and extracting data from databases.
 
 **Decision Tree:** A supervised machine learning algorithm that uses a tree-like structure of decisions and their possible consequences to make predictions or classify instances.
 
@@ -142,9 +166,13 @@
 
 **Delimited Text File:** A plain text file where a specific character separates the data values.
 
+**Demographic Information:** Information about one's characteristics, such as age, gender, and location.
+
 **Descriptive Approach:** An approach used to show relationships and identify clusters of similar activities based on events and preferences.
 
 **Descriptive Modelling:** Modeling technique that focuses on describing and summarizing data, often through statistical analysis and visualization, without making predictions or inferences.
+
+**Descriptive Statistics:** Techniques used to analyze and summarize data, providing initial insights and identify gaps in data.
 
 **Digital Change:** The integration of digital technology into business processes and operations. Leads to improvements and innovations in how organizations operate and deliver value to customers.
 
@@ -161,6 +189,12 @@
 **Executive Summary:** Usually occurring at the beginning of a research paper, this section summarizes the important parts of the paper, including its key findings.
 
 **Extensible Markup Language (XML):** A language designed to structure, store, and enable data exchange between various technologies.
+
+**Feature:** A characteristic or attribute within the data that helps in solving the problem.
+
+**Feature Engineering:** The process of creating new features or variables based on domain knowledge to improve ML algorithm's performance.
+
+**Feature Extraction:** Identifying and selecting relevant features or attributes from the data set.
 
 **Five V's of Big Data:** Characteristics used to describe big data: Velocity, Volume, Variety, Veracity, and Volume.
 
@@ -185,6 +219,10 @@
 **High Performing Computing (HPC) Cluster:** A computing technology that uses a system of networked computers designed to solve complex and computationally intensive problems in traditional environments.
 
 **Infrastructure as a Service (IaaS):** A could service model that provides access to computing infrastructure, including servers, storage, and networking, without the need for users to manage or operate them.
+
+**Interactive Processes:** Iterative and continuous refinement of the methodology based on insights and feedback from data analysis.
+
+**Intermediate Results:** Partial results obtained from predictive modeling, can influence decisions on acquiring additional data.
 
 **Iteration:** A single cycle or repetition of a process, often involves refining or modifiying a solution based on feedback or new information.
 
@@ -232,9 +270,13 @@
 
 **Median**: When arranged in ascending or descending order, the middle value in a set of numbers. Divies the data into two equal halves.
 
+**Missing Values:** Values that are absent or unknown in the dataset, requiring careful handling during the data preparation.
+
 **Model:** A representation of the relationships and patterns found in data to make predictions or analyze complex systems retaining essential elements needed for analysis.
 
-**Model Building:** The process of developing predective models to gain insights and make informed decisions based on data analysis.
+**Model Building:** The process of developing predictive models to gain insights and make informed decisions based on data analysis.
+
+**Model Calibration:** Adjusting model parameters to improve accuracy and alignment with the initial design.
 
 **Model Training:** The process by which the model learns patterns from data.
 
@@ -242,7 +284,7 @@
 
 **Naive Bayes:** A simple probabilistic classification algorithm based on Bayes' theorem.
 
-**Natural Language Processing (NLP):** A field of AI that enables machines to understand, generate, and interact with human language, revolutionizing content creation and chatbots.
+**Natural Language Processing (NLP):** A field of AI that enables machines to understand, generate, and interact with human language, revolutionizing content creation and chat bots.
 
 **Nearest Neighbor:** A machine learning algorithm that predicts a target variable based on its similarity to other values in the dataset.
 
@@ -255,6 +297,8 @@
 **Online Transaction Processing (OLTP) Systems:** Systems that focus on handling business transactions and storing structured data.
 
 **Outliers:** When a data point or points occur significantly outside of most of the other data in a data set, potentially indicating anomalies, errors, or unique phenomena that could impact statistical analysis or modelling.
+
+**Pairwise Correlations:** An analysis to determine the relationships and correlations between variable types.
 
 **Pandas:** An open-source Python library that provides tools for working with structured data. Is often used for data manipulation and analysis.
 
@@ -344,15 +388,29 @@
 
 **TensorFlow:** Deep learning library for dataflow that was built with C++
 
+**Text Analysis:** Steps to analyze and manipulate textual data, extracting meaningful information and patterns.
+
 **Text Analysis Data Mining:** The process of extracting useful information or knowledge from unstructured textual data through techniques such as natural language processing, text mining, and sentiment analysis.
 
+**Text Analysis Groupings:** Creating meaningful groupings and categories from textual data for analysis.
+
 **Threshold Value:** The specific value used to split data into groups or categories in a decision tree.
+
+**Training Set:** A subset of data used to train or fit a machine learning model; consists of input data and corresponding known or labeled output values.
+
+**Unavailable Data:** Data elements that are not currently accessible or integrated into the data sources.
+
+**Univariate:** Modeling analysis focused on a single variable or feature at a time, considering its characteristics and relationship to other variables independently.
 
 **Unstructured Data:** Unorganized data that lacks a predefined data model or organization makes it harder to analyze using traditional methods. This data type often includes text, images, videos, and other content that doesn't fit neatly into rows and columns like structured data.
 
 **Unsupervised Learning:** The data is not labeled by a human. Examples are Clustering models used to divide each record of a dataset into one of a similar group.
 
-**Vendor Lock-in:** A situation where a user becomes dependent on a specific vendor's technologies and solutions, making it challengin to switch to other platforms.
+**Vendor Lock-in:** A situation where a user becomes dependent on a specific vendor's technologies and solutions, making it challenging to switch to other platforms.
+
+**Visualization:** The process of representing data visually to gain insights into its content and quality.
+
+**Visualization Techniques:** Methods and tools that data scientists use to create visual representations or graphics that enhance the accessibility and understanding of data patterns, relationships, and insights.
 
 **Watson Studio:** A fully integrated development environment for data scientists.
 
