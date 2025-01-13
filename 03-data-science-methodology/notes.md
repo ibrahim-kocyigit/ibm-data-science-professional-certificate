@@ -202,4 +202,4 @@ _What additional work (preprocessing) is needed to manipulate and work with the 
 * Develop descriptive models to understand relationships and patterns in the data.
 * Develop predictive models to forecast future outcomes or classify data into categories.
 
-[Purpose of data modeling](https://github.com/ibrahim-kocyigit/ibm-data-science-professional-certificate/blob/main/media/modeling-concepts.png)
+![Purpose of data modeling](https://github.com/ibrahim-kocyigit/ibm-data-science-professional-certificate/blob/main/media/modeling-concepts.png)
