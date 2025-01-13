@@ -3,7 +3,7 @@
 ## Table of Contents
 1. [Module 1: From Problem to Approach, and From Requirements to Collection](#module-1)
 2. [Module 2: From Understanding to Preparation, and From Modeling to Evaluation](#module-2)
-3. [Module 3: ](#module-3)
+3. [Module 3: From Deployment to Feedback and Final Evaluation](#module-3)
 4. [Module 4: ](#module-4)
 
 # Module 1: From Problem to Approach, and From Requirements to Collection <a name="module-1"></a>
@@ -238,3 +238,8 @@ During the **evaluation** phase, you assess the performance and validity of the 
     * Used to determine if the results obtained from the model are statistically significant and not due to chance.
     * Helps ensure the reliability and validity of the model's findings.
 
+# Module 3: From Deployment to Feedback and Final Evaluation <a name="module-3"></a>
+
+## From Deployment to Feedback and Final Evaluation
+
+### Deployment

@@ -32,6 +32,8 @@
 
 **Big Data Cluster:** A distributed computing environment comprising thousands or tens of thousands of interconnected computers that collectively store and process large datasets.
 
+**Binary Classification Model:** A model that classifies data into two categories, such as yes/no or stop/go outcomes.
+
 **Broad Network Access:** The ability to access cloud resources via standard mechanisms and platforms such as mobile devices, laptops, and workstations over networks.
 
 **Business Understanding:** The initial phase of data science methodology involves seeking clarification and understanding the goals, objectives, and requirements of a given task or problem.
@@ -114,6 +116,8 @@
 
 **Data Mining:** The process of automatically searching and analyzing data to discover patterns and insights that were previously unknown.
 
+**Data Modeling:** The stage in the data science methodology where data scientists develop models, either descriptive or predictive, to answer specific questions.
+
 **Data Pipeline:** A comprehensive data movement process that covers the entire journey of data from source systems to destination systems, which includes data integration as a key component.
 
 **Data Preparation:** The process of organizing and formatting data to meet the requirements of the modeling technique. 
@@ -174,9 +178,15 @@
 
 **Descriptive Statistics:** Techniques used to analyze and summarize data, providing initial insights and identify gaps in data.
 
+**Diagnostic Measure Based Tuning:** The process of fine-tuning the model by adjusting parameters based on diagnostic measures and performance indicators.
+
+**Diagnostic Measures:** The evaluation of a model's performance to ensure that the model functions as intended.
+
 **Digital Change:** The integration of digital technology into business processes and operations. Leads to improvements and innovations in how organizations operate and deliver value to customers.
 
 **Digital Transformation:** A strategic and cultural organizational change driven by data science, especially by Big Data, to integrate digital technology across all areas of the organization, resulting in fundamental operational and value delivery changes.
+
+**Discrimination Criterion:** A measure used to evaluate the performance of the model in classifying different outcomes.
 
 **Distributed Data:** The practice of dividing data into smaller chunks and distributing them across multiple computers within a cluster. Enables parallel processing for data analysis.
 
@@ -189,6 +199,8 @@
 **Executive Summary:** Usually occurring at the beginning of a research paper, this section summarizes the important parts of the paper, including its key findings.
 
 **Extensible Markup Language (XML):** A language designed to structure, store, and enable data exchange between various technologies.
+
+**False-Positive Rate:** The rate at which the model incorrectly identifies negative outcomes as positive.
 
 **Feature:** A characteristic or attribute within the data that helps in solving the problem.
 
@@ -217,6 +229,8 @@
 **Hadoop Distributed File System (HDFS):** A storage system within the Hadoop framework that partitions and distributes files across multiple nodes, facilitating parallel data access and fault tolerance.
 
 **High Performing Computing (HPC) Cluster:** A computing technology that uses a system of networked computers designed to solve complex and computationally intensive problems in traditional environments.
+
+**Histogram:** A graphical representation of the distribution of a dataset, where the data is divided into intervals or bins, and the height of each bar represents the frequency or count of data points falling within the interval.
 
 **Infrastructure as a Service (IaaS):** A could service model that provides access to computing infrastructure, including servers, storage, and networking, without the need for users to manage or operate them.
 
@@ -266,6 +280,8 @@
 
 **Matrices:** Plural for matrix, matrices are a rectangular (tabular) array of numbers often used in mathematics, statistics, and computer science.
 
+**Maximum Separation:** The point where ROC curve provides the best discrimination between true-positive and false-positive rates, indicating the most effective model.
+
 **Mean:** The average value of a set of numbers. Is calculated by summing all the values and dividing by the total number of values.
 
 **Median**: When arranged in ascending or descending order, the middle value in a set of numbers. Divides the data into two equal halves.
@@ -277,6 +293,8 @@
 **Model Building:** The process of developing predictive models to gain insights and make informed decisions based on data analysis.
 
 **Model Calibration:** Adjusting model parameters to improve accuracy and alignment with the initial design.
+
+**Model Evaluation:** The process of assessing the quality and relevance of the model before deployment.
 
 **Model Training:** The process by which the model learns patterns from data.
 
@@ -295,6 +313,8 @@
 **NumPy:** Libraries based on arrays and matrices, allowing you to apply mathematical functions to the arrays.
 
 **Online Transaction Processing (OLTP) Systems:** Systems that focus on handling business transactions and storing structured data.
+
+**Optimal Model:** The model that provides the maximum separation between the ROC curve and the baseline, indicating higher accuracy and effectiveness.
 
 **Outliers:** When a data point or points occur significantly outside of most of the other data in a data set, potentially indicating anomalies, errors, or unique phenomena that could impact statistical analysis or modelling.
 
@@ -332,13 +352,19 @@
 
 **R:** An open-source programming language used for statistical computing, data analysis, and data visualization.
 
+**Receiver Operating Characteristic (ROC):** Originally developed for military radar, the military used this statistical curve to assess the performance of binary classification models.
+
 **Regression Models:** Are used to predict a numeric (or "real") value.
 
 **Reinforcement Learning:** Loosely based on the way human beings and other organisms learn.
 
 **Relational Databases:** Databases designed to store structured data with well-defined schemas and support standard data analysis methods and tools.
 
+**Relative Misclassification Cost:** This measurement is a parameter in model building used to tune the trade-off between true-positive and false-positive rates.
+
 **REST:** Representational State Transfer.
+
+**ROC Curve:** Receiver Operating Characteristic Curve is a diagnostic tool used to determine the optimal classification model's performance.
 
 **RStudio:** Unifies programming, execution, debugging, remote data access, data exploration, and visualization into one tool.
 
@@ -349,6 +375,8 @@
 **Schema:** The predefined structure that describes the organization and format of data within a database, indicating the types of data allowed and their relationships.
 
 **Sensors:** Devices such as Global Positioning Systems (GPS) and Radio Frequency Identification (RFID) tags generate structured data.
+
+**Separation:** Separation is the degree of discrimination achieved by the model in correctly classifying outcomes.
 
 **Spreadsheets:** Software applications like Excel, used for organizing and analyzing structured data.
 
@@ -367,6 +395,8 @@
 **Statistical Analysis:** Collection, organization, analysis, interpretation, and presentation of data to uncover patterns and trends.
 
 **Statistical Distributions:** A way of describing the likelihood of different outcomes based on a dataset. The "bell curve" is a common statistical distribution.
+
+**Statistical Significance Testing:** Evaluation technique to verify that data is appropriately handled and interpreted within the model.
 
 **Statistics:** Collection, organization, analysis, interpretation, and presentation of data to uncover patterns and trends.
 
@@ -397,6 +427,8 @@
 **Threshold Value:** The specific value used to split data into groups or categories in a decision tree.
 
 **Training Set:** A subset of data used to train or fit a machine learning model; consists of input data and corresponding known or labeled output values.
+
+**True-Positive Rate:** The rate at which the model correctly identifies positive outcomes.
 
 **Unavailable Data:** Data elements that are not currently accessible or integrated into the data sources.
 
