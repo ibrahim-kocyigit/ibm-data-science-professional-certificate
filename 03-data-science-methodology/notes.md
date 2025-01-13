@@ -203,3 +203,38 @@ _What additional work (preprocessing) is needed to manipulate and work with the 
 * Develop predictive models to forecast future outcomes or classify data into categories.
 
 ![Purpose of data modeling](https://github.com/ibrahim-kocyigit/ibm-data-science-professional-certificate/blob/main/media/modeling-concepts.png)
+
+**Training set:** Historical data with known outcomes used to train and evaluate the model.
+
+**Model selection and calibration:** 
+* Experiment with different algorithms and parameters to find the best model for the problem.
+* Use the training set to assess the model's performance and make adjustments as needed.
+
+**Importance of understanding and approach:**  
+* The success of data modeling depends on a clear understanding of the problem and the chosen analytical approach. 
+* The quality of the data and its preparation also play a crucial role in model performance.
+
+#### Data Science Methodology Framework:
+1. Understand the problem
+2. Select an analytical approach
+3. Obtain, understand, prepare, and model the data.
+
+### Evaluation
+During the **evaluation** phase, you assess the performance and validity of the model you've built. This stage is closely tied to modeling and often involves an iterative process of refinement.
+
+**Purpose of evaluation:**  
+* Determine if the model meets the initial business requirements and objectives.
+* Assess the model's quality and identify areas for improvement.
+* Ensure that the model is reliable and provides meaningful insights.
+
+**ROC Curve:** A receiver operating characteristic curve is used to visualize and compare the performance of different models. The optimal model is the one with the maximum separation from the baseline.
+
+#### Phases of Evaluation
+* **Diagnostic Measures:**  
+    * Used to assess the model's performance and identify potential issues.
+    * For predictive models, this might involve comparing predicted outcomes to actual outcomes.
+    * For descriptive models, this might involve examining relationships and patterns in the data.
+* **Statistical Significance Testing:**  
+    * Used to determine if the results obtained from the model are statistically significant and not due to chance.
+    * Helps ensure the reliability and validity of the model's findings.
+

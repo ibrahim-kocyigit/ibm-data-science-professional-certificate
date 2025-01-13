@@ -1,6 +1,15 @@
 # Stages of Data Science Methodology
 
 
+Buna göre elden geçir:
+#### Data Science Methodology Framework:
+1. Understand the problem
+2. Select an analytical approach
+3. Obtain, understand, prepare, and model the data.
+
+
+
+
 ### 1. Business Understanding:
 _"What is the problem that I am trying to solve?"_
 
@@ -34,11 +43,13 @@ _"What data do I need, where is the data located, and how will I get it?_
 ### Data Understanding:
 _"Does the data represent the problem accurately?"_
 
-1. **Importance of Understanding:**  
-
+1. **Importance of Understanding:** Data understanding assesses the quality and significance ot data components. Uses visualizations and descriptive statistics.
+2. **Assessment and Iteration:** Iterations refine both problem definition and collection methods.
 
 ### Data Preparation:
 _"What additional work (preprocessing) is needed to manipulate and work with the data?"_
+
+1. **
 
 ### Modeling:
 _"When I apply data visualizations, do I see answers that address the business problem?"_
