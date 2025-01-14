@@ -98,8 +98,10 @@ _Check the lab folder for more detail_
 #### String interpolation (f-strings)
 Introduced in Python 3.6, f-strings are a new way to format strings in Python. They are prefixed with 'f' and use curly braces {} to enclose the variables that will be formatted. For example:
 
-> name = "John"
-> age = 30
-> print(f"My name is {name} and I am {age} years old.")
+> name = "John"  
+> age = 30  
+> print(f"My name is {name} and I am {age} years old.")  
+
+
 
 
