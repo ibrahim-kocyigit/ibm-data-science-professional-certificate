@@ -4,7 +4,7 @@
 1. [Module 1: From Problem to Approach, and From Requirements to Collection](#module-1)
 2. [Module 2: From Understanding to Preparation, and From Modeling to Evaluation](#module-2)
 3. [Module 3: From Deployment to Feedback and Final Evaluation](#module-3)
-4. [Module 4: ](#module-4)
+4. [Module 4: Final Project and Assessment](#module-4)
 
 # Module 1: From Problem to Approach, and From Requirements to Collection <a name="module-1"></a>
 
@@ -243,3 +243,84 @@ During the **evaluation** phase, you assess the performance and validity of the 
 ## From Deployment to Feedback and Final Evaluation
 
 ### Deployment
+**Deployment** is the stage where the evaluated model is implemented and made available for use in a real-world environment.
+
+**Purpose of deployment:**  
+* Put the model into practice to solve the business problem.
+* Make the model's results accessible to stakeholders and users.
+* Gather feedback on the model's performance in a real-world setting.
+
+**Stakeholder collaboration:**  
+* Deployment often involves collaboration with various stakeholders, including solution owners, marketing teams, application developers, and IT administrators.
+* Their expertise ensures the model is integrated effectively and meets the needs of the users.
+
+**Deployment strategies:**  
+* Models can be deployed to a limited group of users or in a test environment before a full-scale rollout.
+* This helps build confidence in the model's performance and allows for adjustments before widespread use.
+
+### Feedback
+The final stage of the data science methodology is **feedback**, where you collect and analyze feedback on the deployed model to assess its performance, identify areas for improvement, and refine the model accordingly. 
+
+**Importance of feedback:**  
+* Feedback is crucial for ensuring the model remains relevant and effective in addressing the business problem.
+* Incorporating feedback into the model development process leads to continuous improvement and better outcomes.
+
+**Cyclical nature of the methodology:**  
+Feedback loops back to earlier stages of the methodology, allowing for iterative refinement and adjustments based on real-world performance.
+
+### Storytelling
+**Storytelling** is crucial for data scientists. It's not enough to just analyze the data; you need to be able to communicate your findings in a clear, concise, and compelling way. Storytelling helps make data insights more understandable and relatable to your audience.
+
+Storytelling also helps you, as a data scientist, to understand the data better and uncover hidden patterns and insights.
+
+Storytelling is a critical skill for data scientists, as it helps bridge the gap between technical analysis and real-world impact. It's in high demand and can significantly enhance your career prospects.
+
+**Balancing simplicity and complexity** is important. A good data story balances simplicity with the necessary complexity of the data. It's important to convey the key message clearly while still accurately representing the nuances of the data.
+
+**Driving action with stories:**  Stories create an emotional connection with the audience, making the data more memorable and motivating action. Research has shown that people are more likely to remember and act on information presented through stories.
+
+# Module 4: Final Project and Assessment <a name="module-4"></a>
+
+## Final Project
+
+### Introduction to CRISP-DM
+**CRISP-DM (Cross-Industry Standard Process for Data Mining)** is a widely used and proven methodology for planning and executing data mining projects. It provides a structured approach to guide data-driven decision-making.
+
+#### Six Stages of CRISP-DM
+1. **Business Understanding:** Define the business objectives, assess the situation, and determine data mining goals.
+2. **Data Understanding:** Collect initial data, describe and explore it, and verify its quality. (This stage combines the data requirements, data collection, and data understanding stages from the John Rolling methodology.)
+3. **Data Preparation:** Clean, prepare, and transform the data for modeling. This includes selecting, cleaning, constructing, integrating, and formatting data.
+4. **Modeling:** Select and apply appropriate modeling techniques, design tests, build and assess the model.
+5. **Evaluation:** Evaluate the model's performance, review the process, and determine whether the model meets business objectives.
+6. **Deployment:** Deploy the model, monitor its performance, and maintain it.
+
+**Iterative and cyclical:** CRISP-DM is an iterative process, meaning you may need to revisit earlier stages based on the findings in later stages.
+
+**Flexibility and communication:** The methodology requires flexibility and ongoing communication with stakeholders to ensure the project stays on track and meets its objectives.
+
+**Feedback:** Although not explicitly named in CRISP-DM, the feedback stage (similar to the John Rolling methodology) is crucial after deployment to gather insights and refine the model.
+
+## Summary
+Foundational methodology, a cyclical, iterative data science methodology developed by John Rollins, consists of 10 stages, starting with Business Understanding and ending with Feedback.
+
+CRISP-DM, an open source data methodology, combines several data-related methodology stages into one stage and omits the Feedback stage resulting in a six-stage data methodology.
+
+* The primary goal of the **Business Understanding** stage is to understand the business problem and determine the data needed to answer the core business question. 
+
+* During the **Analytic Approach** stage, you can choose from descriptive diagnostic, predictive, and prescriptive analytic approaches and whether to use machine learning techniques.
+
+* During the **Data Requirements** stage, scientists identify the correct and necessary data content, formats, and sources needed for the specific analytical approach.
+
+* During the **Data Collection** stage, expert data scientists revise data requirements and make critical decisions regarding the quantity and quality of data. Data scientists apply descriptive statistics and visualization techniques to thoroughly assess the content, quality, and initial insights gained from the collected data, identify gaps, and determine if new data is needed, or if they should substitute existing data.
+
+* The **Data Understanding** stage encompasses all activities related to constructing the data set. This stage answers the question of whether the collected data represents the data needed to solve the business problem. Data scientists might use descriptive statistics, predictive statistics, or both. Data scientists commonly apply Hurst, univariate, and statistics such as mean, median, minimum, maximum, standard deviation, pairwise correlation, and histograms. 
+
+* During the **Data Preparation** stage, data scientists must address missing or invalid values, remove duplicates, and validate that the data is properly formatted. Feature engineering and text analysis are key techniques data scientists apply to validate and analyze data during the Data Preparation stage.
+
+* The end goal of the Modeling stage is that the data model answers the business question. During the **Modeling** stage, data scientists use a training data set. Data scientists test multiple algorithms on the training set data to determine whether the variables are required and whether the data supports answering the business question. The outcome of those models is either descriptive or predictive. 
+
+* The **Evaluation** stage consists of two phases, the diagnostic measures phase, and the statistical significance phase. Data scientists and others assess the quality of the model and determine if the model answers the initial Business Understanding question or if the data model needs adjustment. 
+
+* During the **Deployment** stage, data scientists release the data model to a targeted group of stakeholders, including solution owners, marketing staff, application developers, and IT administration., 
+
+* During the **Feedback** stage, stakeholders and users evaluate the model and contribute feedback to assess the model’s performance. The data model’s value depends on its ability to iterate; that is, how successfully the data model incorporates user feedback.
