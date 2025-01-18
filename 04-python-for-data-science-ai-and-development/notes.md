@@ -250,17 +250,23 @@ Here's the difference between errors and exceptions:
 
 | Aspect | Errors | Exceptions |
 |--------|--------|------------|
-| Origin | Errors are typically caused by the environment, hardware or operating system. | Exceptions are usually a result of problematic code execution within the program. |
-| Nature | Errors are often severe and can lead to program crashes or abnormal termination. | Exceptions are generally less severe and can be caught and handled to prevent program termination. |
-| Handling | Errors are not usually caught or handled by the program itself. | Exceptions can be caught using try-except blocks and dealt with gracefully, allowing the program to continue execution. |
-| Examples | Examples include "SyntaxError" due to incorrect syntax or "NameError" when a variable is not defined. | Examples include "ZeroDivisionError" when dividing by zero, or "FileNotFoundError" when attempting to open a non-existent file. | 
-| Categorization | Errors are not classified into categories. | Exceptions are categorized into various classes, such as "ArithmeticError", "IOError", "ValueError", etc., based on their nature. |
+| **Origin** | Errors are typically caused by the environment, hardware or operating system. | Exceptions are usually a result of problematic code execution within the program. |
+|**Nature** | Errors are often severe and can lead to program crashes or abnormal termination. | Exceptions are generally less severe and can be caught and handled to prevent program termination. |
+| **Handling** | Errors are not usually caught or handled by the program itself. | Exceptions can be caught using try-except blocks and dealt with gracefully, allowing the program to continue execution. |
+| **Examples** | Examples include "SyntaxError" due to incorrect syntax or "NameError" when a variable is not defined. | Examples include "ZeroDivisionError" when dividing by zero, or "FileNotFoundError" when attempting to open a non-existent file. | 
+| **Categorization** | Errors are not classified into categories. | Exceptions are categorized into various classes, such as "ArithmeticError", "IOError", "ValueError", etc., based on their nature. |
 
 #### Common exceptions in Python
+* **ZeroDivisionError** arises when an attempt is made to divide a number by zero. Division by zero is undefined in mathematics, causing an arithmetic error.
+* **ValueError** occurs when an inappropriate value is used within the code. An example of this is when trying to convert a non-numeric string to an integer.
+* **FileNotFoundError** is encountered when an attempt is made to access a file that does not exist.
+* **IndexError** occurs when an index is used to access an element in a list that is outside the valid index range.
+* **KeyError** arises when an attempt is made to access a non-existent key in a dictionary.
+* **TypeError** occurs when an object is used in an incompatible manner. An example includes trying to concatenate a string and an integer.
+* **AttributeError** occurs when an attribute of method is accessed on an object that doesn't possess that specific attribute or method. 
+* **ImportError** is encountered when an attempt is made to import a module that is unavailable. 
 
-
-
-
+#### Handling exceptions
 * Exception handling in Python is a mechanism for managing and responding to errors and exceptions that may occur during program execution, preventing them from crashing the program.
 * In Python, you use the "try-except" statement to attempt a block of code and specify alternative actions to execute if an error occurs, allowing you to handle exceptions. 
 * In Python, you use the "try-except-else" statement to attempt a block of code, handle exceptions in the "except" block, and execute code in the "else" block when no exceptions occur. 
