@@ -46,4 +46,23 @@ list[2][0] = "c"  # Raises a TypeError: 'tuple' object does not support item ass
 
 help(list)
 
+### Freq function practice
+
+
+def freq(string):
+    words = string.lower().split()
+    dict = {}
+
+    for word in words:
+        dict[word] = words.count(word)
+
+    return dict
+
+
+test = "Hello Ibrahim and hello Aykut. Today is Thursay and tomorrow is friday."
+
+print(freq(test))
+
 ###
+len(sum([1, 1, 2]))
+len([sum([1, 1, 1])])

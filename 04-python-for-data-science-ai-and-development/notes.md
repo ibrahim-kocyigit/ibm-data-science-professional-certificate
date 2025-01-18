@@ -205,7 +205,64 @@ _Check the lab folder for more detail_
 # Module 3: Python Programming Fundamentals <a name="module-3"></a>
 
 ### Conditions and Branching
+* Python conditions use `if` statements to execute code based on true/false conditions created by comparisons and Boolean expressions.
+* Comparison operations require using comparison operators equal to `=`, greater than `>`, less than `<`.
+* An exclamation mark `!` is used to define inequalities of a variable.
+* You can compare integers, strings, and floats.
+* Python branching directs program flow by using conditional statements (for example, `if`, `else`, `elif`) to execute different code blocks based on conditions or tests.
+* You can use the `if` statement with conditions to define actions if true.
+* To perform actions based on true or false output, you can use the `else` statement with conditions.
+* The `elif` statement allows for additional checks only if the initial condition is false.
+* To execute various operations on Boolean values, we use Boolean logic operators.
 
 _Check the lab folder for more detail_
 
 ### Loops
+* Python loops are control structures that automate repetitive tasks and iterate over data structures like lists or dictionaries.
+* The `range()` function generates a sequence of numbers with a specified start, stop, and step value for loops in Python.
+* A for loop in Python iterates over a sequence, such as a list, tuple, or string, and executes a block of code for each item in the sequence.
+* A while loop in Python executes a block of code as long as a specified condition remains true.
+
+_Check the lab folder for more detail_
+
+### Functions
+* Python functions are reusable code blocks that perform specific tasks, take input parameters, and often return results, enhancing code modularity and reusability.
+* You may or may not have written the codes that are often included in functions.
+* Python has a set of built-in functions such as "len" to find the length of a sequence or "sum" to find the total sum of a sequence.
+* The "sorted" function creates a new sorted list, while "sort" sorts items in the original list.
+* You can also create your own functions in Python.
+* To ensure clarity and organization and facilitate understanding and maintenance of the code, developers must document functions using a documentation string enclosed in three quotes.
+* The help command will return the documentation defined for a particular function.
+* A function can have multiple parameters.
+* “No return” statement in the function means that the function will return nothing.
+* The "No work" function does not execute any task. You can use the "pass" keyword to meet the requirement of a non-empty body.
+* A function will usually perform more than one task.
+* In Python, the scope of a variable determines where you can access or modify that variable. Global scope allows access from anywhere, while local scope restricts it to a block or function.
+* In Python, a programmer defines a local variable within a specific block or function, which can only be accessed or modified within that block or function.
+* In Python, a global variable is a variable defined at the top level of a program that any part of the code can access or modify. 
+
+_Check the lab folder for more detail_
+
+### Exception Handling
+`errors` are usually big problems that come from the computer or the system. They often make the program stop working completely. On the other hand, `exceptions` are more like issues we can control. They happen because something we did in our code and can usually be fixed, so the program keeps going.
+
+Here's the difference between errors and exceptions:
+
+| Aspect | Errors | Exceptions |
+|--------|--------|------------|
+| Origin | Errors are typically caused by the environment, hardware or operating system. | Exceptions are usually a result of problematic code execution within the program. |
+| Nature | Errors are often severe and can lead to program crashes or abnormal termination. | Exceptions are generally less severe and can be caught and handled to prevent program termination. |
+| Handling | Errors are not usually caught or handled by the program itself. | Exceptions can be caught using try-except blocks and dealt with gracefully, allowing the program to continue execution. |
+| Examples | Examples include "SyntaxError" due to incorrect syntax or "NameError" when a variable is not defined. | Examples include "ZeroDivisionError" when dividing by zero, or "FileNotFoundError" when attempting to open a non-existent file. | 
+| Categorization | Errors are not classified into categories. | Exceptions are categorized into various classes, such as "ArithmeticError", "IOError", "ValueError", etc., based on their nature. |
+
+#### Common exceptions in Python
+
+
+
+
+* Exception handling in Python is a mechanism for managing and responding to errors and exceptions that may occur during program execution, preventing them from crashing the program.
+* In Python, you use the "try-except" statement to attempt a block of code and specify alternative actions to execute if an error occurs, allowing you to handle exceptions. 
+* In Python, you use the "try-except-else" statement to attempt a block of code, handle exceptions in the "except" block, and execute code in the "else" block when no exceptions occur. 
+* Python developers use the "try-except-else-finally" statement to attempt a block of code, catch exceptions in the "except" block, execute code in the "else" block when no exceptions occur, and ensure that the "finally" block always runs, regardless of whether an exception raised or not.
+
