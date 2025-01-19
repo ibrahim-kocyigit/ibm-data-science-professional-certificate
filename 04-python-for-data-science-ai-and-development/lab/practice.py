@@ -66,3 +66,39 @@ print(freq(test))
 ###
 len(sum([1, 1, 2]))
 len([sum([1, 1, 1])])
+
+### string punctuation
+import string
+
+my_str = "Hello, World!"
+clean = "".join([char for char in my_str if char not in string.punctuation])
+print(clean)
+
+
+###
+class TextAnalyzer(object):
+    def __init__(self, text):
+        self.text = text.lower()
+        self.fmtText = "".join(
+            [char for char in self.text if char not in string.punctuation]
+        )
+
+    def freqAll(self):
+        words = self.fmtText.split()
+        freqMap = {}
+        for word in set(words):
+            freqMap[word] = words.count(word)
+        return freqMap
+
+    def freqOf(self, word):
+        dct = self.freqAll()
+        if word.lower() in dct.keys():
+            return dct[word.lower()]
+        else:
+            return 0
+
+
+ta = TextAnalyzer(my_str)
+ta.freqOf("Hello")
+ta.freqOf("world")
+ta.freqOf("ibrahim")

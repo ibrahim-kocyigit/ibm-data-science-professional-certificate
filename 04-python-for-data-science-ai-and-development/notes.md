@@ -4,8 +4,8 @@
 1. [Module 1: Python Basics](#module-1)
 2. [Module 2: Python Data Structures](#module-2)
 3. [Module 3: Python Programming Fundamentals](#module-3)
-4. [Module 4: ](#module-4)
-5. [Module 4: ](#module-5)
+4. [Module 4: Working with Data in Python](#module-4)
+5. [Module 5: ](#module-5)
 
 # Module 1: Python Basics <a name="module-1"></a>
 
@@ -272,3 +272,20 @@ Here's the difference between errors and exceptions:
 * In Python, you use the "try-except-else" statement to attempt a block of code, handle exceptions in the "except" block, and execute code in the "else" block when no exceptions occur. 
 * Python developers use the "try-except-else-finally" statement to attempt a block of code, catch exceptions in the "except" block, execute code in the "else" block when no exceptions occur, and ensure that the "finally" block always runs, regardless of whether an exception raised or not.
 
+_Check the lab folder for more detail_
+
+
+### Objects and Classes
+* In Python, objects are instances of classes that encapsulate data and behavior, serving as the foundation for creating and working with various data types and custom data structures.
+* To determine the type of an object in Python, you can use the `type()` command.
+* Any changes made within the method of the object may result in a change in object type.
+* Classes in Python are blueprints for creating objects, defining their attributes and methods, enabling code organization, and object-oriented programming.
+* Function "init" is a special method used to initialize data attributes.
+* We can create instances of a class in Python.
+* Data attributes consist of the data defining the objects.
+* Methods are functions that interact and change the data attributes.
+* The method has a function that requires the self as well as other parameters.
+
+_Check the lab folder for more detail_
+
+# Module 4: Working with Data in Python <a name="module-4"></a>
