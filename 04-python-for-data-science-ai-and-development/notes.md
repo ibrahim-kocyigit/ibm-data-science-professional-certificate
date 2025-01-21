@@ -290,9 +290,14 @@ _Check the lab folder for more detail_
 
 # Module 4: Working with Data in Python <a name="module-4"></a>
 
-## Reading and Writing Files with open
+## Reading and Writing Files with `Open`
 
-### Reading Files with open
+### Reading Files with `Open`
+
+`.read()`
 
 _Check notes.ipynb file for details_
 
+### Writing Files with `Open`
+
+_Check notes.ipynb file for details_
