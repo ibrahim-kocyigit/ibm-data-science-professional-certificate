@@ -5,7 +5,7 @@
 2. [Module 2: Python Data Structures](#module-2)
 3. [Module 3: Python Programming Fundamentals](#module-3)
 4. [Module 4: Working with Data in Python](#module-4)
-5. [Module 5: ](#module-5)
+5. [Module 5: APIs and Data Collection](#module-5)
 
 # Module 1: Python Basics <a name="module-1"></a>
 
@@ -301,3 +301,21 @@ _Check notes.ipynb file for details_
 ### Writing Files with `Open`
 
 _Check notes.ipynb file for details_
+
+## Pandas
+
+### Pandas: Loading Data
+
+
+## Numpy in Python
+
+# Module 5: APIs and Data Collection <a name="module-5"></a>
+
+## Simple APIs
+
+### Application Program Interface
+
+## REST APIs, Web Scraping, and Working with Files
+
+### Rest APIs and HTTP Requests - Part 1
+
